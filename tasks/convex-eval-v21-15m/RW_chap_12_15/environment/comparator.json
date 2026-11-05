@@ -1,0 +1,12 @@
+{
+  "challenge_module": "LeanWorkspace.Challenge",
+  "solution_module": "LeanWorkspace.RW_chap_12_15",
+  "theorem_names": [
+    "RW_chap_12_15"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

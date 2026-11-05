@@ -1,0 +1,13 @@
+{
+  "challenge_module": "LeanWorkspace.Challenge",
+  "solution_module": "LeanWorkspace.newton_decrement_bound",
+  "theorem_names": [
+    "newton_decrement_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

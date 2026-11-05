@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Sharp slicing: is the cube the maximiser of the isotropic constant?]
+For a convex body $K \subset \mathbb{R}^n$ of volume $1$ with barycentre at the origin, let $L_K = \det \left( \int_K x x^{\!\top} \, \mathrm{d} x \right)^{1 / (2n)}$. For centrally symmetric $K$,
+\begin{align*}
+  L_K \le L_{Q^n} = 1 / \sqrt{12}
+  \qquad \text{with} \qquad
+  Q^n = \left[ -\frac{1}{2}, \frac{1}{2} \right]^n.
+\end{align*}
+\end{conjecture}
+
+\end{document}

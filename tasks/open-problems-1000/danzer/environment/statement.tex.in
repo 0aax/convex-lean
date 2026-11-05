@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{problem}{Problem}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{problem}[Danzer's problem]
+Call $Y \subseteq \mathbb{R}^d$ a \emph{Danzer set} if it meets every convex body of volume one: $Y \cap K \neq \emptyset$ whenever $K$ is convex with $\operatorname{vol} (K) = 1$. For $d \ge 2$, does there exist a Danzer set of \textbf{bounded density}?
+\begin{align*}
+  \exists \, Y, \ \exists \, C, \quad
+    &\left( \forall K \text{ convex}, \ \operatorname{vol} (K) = 1 \Rightarrow Y \cap K \neq \emptyset \right) \\
+    &\wedge \ \left( \forall x, \ \# \left( Y \cap B(x, 1) \right) \le C \right).
+\end{align*}
+\end{problem}
+
+\end{document}

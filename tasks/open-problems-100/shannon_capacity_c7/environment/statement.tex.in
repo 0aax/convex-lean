@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Shannon capacity of the 7-cycle]
+For finite simple graphs $G$ and $H$, the strong product $G \boxtimes H$ has vertex set $V(G) \times V(H)$, with $(a_1, b_1)$ adjacent to $(a_2, b_2)$ if and only if the two vertices are distinct and, in each coordinate separately, the entries are either equal or adjacent. Write $G^{\boxtimes k}$ for the $k$-fold strong power, and $\alpha(G)$ for the independence number, the largest number of pairwise non-adjacent vertices. The Shannon capacity of $G$ is
+\begin{align*}
+  \Theta(G) = \sup_{k \geq 1} \alpha \left( G^{\boxtimes k} \right)^{1/k}.
+\end{align*}
+Operationally, $\Theta(G)$ is the effective alphabet size per symbol achievable for zero-error transmission over a channel whose confusable symbol pairs are the edges of $G$. Let $C_7$ denote the cycle on $7$ vertices. Then
+\begin{align*}
+  \Theta(C_7) = \frac{7 \cos(\pi/7)}{1 + \cos(\pi/7)}.
+\end{align*}
+\end{conjecture}
+
+\end{document}

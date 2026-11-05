@@ -1,0 +1,2522 @@
+[
+ {
+  "task": "BC_chap_13_37",
+  "trial": "BC_chap_13_37__fPaKbMo",
+  "source_result": "Theorem 13.37",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "BC_chap_16_17",
+  "trial": "BC_chap_16_17__fiZ3BPT",
+  "source_result": "Proposition 16.17",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bauschke-Combettes Proposition 16.17"
+ },
+ {
+  "task": "BC_chap_20_25",
+  "trial": "BC_chap_20_25__xHLsCnE",
+  "source_result": "Theorem 20.25",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "BC_chap_6_30",
+  "trial": "BC_chap_6_30__rtdHLNq",
+  "source_result": "Theorem 6.30 (Moreau)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "BC_chap_7_12",
+  "trial": "BC_chap_7_12__6Hfp855",
+  "source_result": "Corollary 7.12",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "BC_chap_8_38",
+  "trial": "BC_chap_8_38__t66RXph",
+  "source_result": "Theorem 8.38",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bauschke-Combettes Theorem 8.38"
+ },
+ {
+  "task": "BC_chap_9_20",
+  "trial": "BC_chap_9_20__YTdeUhu",
+  "source_result": "Theorem 9.20",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "BC Theorem 9.20 / BC 9.20"
+ },
+ {
+  "task": "CAMA_chap_3_1_2_1",
+  "trial": "CAMA_chap_3_1_2_1__iBncJTV",
+  "source_result": "Chapter III, Proposition 1.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_1_2_4",
+  "trial": "CAMA_chap_3_1_2_4__KzJDsrj",
+  "source_result": "Chapter III, Proposition 1.2.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_1_2_7",
+  "trial": "CAMA_chap_3_1_2_7__Sp5p62Z",
+  "source_result": "Chapter III, Proposition 1.2.7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_1_3_3",
+  "trial": "CAMA_chap_3_1_3_3__Q38djbB",
+  "source_result": "Chapter III, Proposition 1.3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_1_3_4",
+  "trial": "CAMA_chap_3_1_3_4__wMx2MQQ",
+  "source_result": "Chapter III, Proposition 1.3.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_1_3_6",
+  "trial": "CAMA_chap_3_1_3_6__WFhNf33",
+  "source_result": "Chapter III, Theorem 1.3.6 (C. Carathéodory)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_1_4_3",
+  "trial": "CAMA_chap_3_1_4_3__WgyVRJD",
+  "source_result": "Chapter III, Theorem 1.4.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_1_10",
+  "trial": "CAMA_chap_3_2_1_10__CgC4juM",
+  "source_result": "Chapter III, Proposition 2.1.10",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_1_12",
+  "trial": "CAMA_chap_3_2_1_12__U7vmose",
+  "source_result": "Chapter III, Proposition 2.1.12",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_1_3",
+  "trial": "CAMA_chap_3_2_1_3__R4vSFHa",
+  "source_result": "Chapter III, Theorem 2.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_1_6",
+  "trial": "CAMA_chap_3_2_1_6__Y2WtNAA",
+  "source_result": "Chapter III, Lemma 2.1.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_1_8",
+  "trial": "CAMA_chap_3_2_1_8__u4XYSnP",
+  "source_result": "Chapter III, Proposition 2.1.8",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_2_1",
+  "trial": "CAMA_chap_3_2_2_1__u4JyhaU",
+  "source_result": "Chapter III, Proposition 2.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_2_3",
+  "trial": "CAMA_chap_3_2_2_3__kn2sY7D",
+  "source_result": "Chapter III, Proposition 2.2.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_3_3",
+  "trial": "CAMA_chap_3_2_3_3__qpgzHt7",
+  "source_result": "Chapter III, Proposition 2.3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_3_4",
+  "trial": "CAMA_chap_3_2_3_4__2Evdeoj",
+  "source_result": "Chapter III, Theorem 2.3.4 (H. Minkowski)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_3_7",
+  "trial": "CAMA_chap_3_2_3_7__czLNJ7q",
+  "source_result": "Chapter III, Proposition 2.3.7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_2_4_6",
+  "trial": "CAMA_chap_3_2_4_6__K5hgndQ",
+  "source_result": "Chapter III, Proposition 2.4.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_3_1_1",
+  "trial": "CAMA_chap_3_3_1_1__MWs6JY6",
+  "source_result": "Chapter III, Theorem 3.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_3_1_3",
+  "trial": "CAMA_chap_3_3_1_3__ZEa9bDs",
+  "source_result": "Chapter III, Proposition 3.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_3_2_3",
+  "trial": "CAMA_chap_3_3_2_3__SZuyUbs",
+  "source_result": "Chapter III, Proposition 3.2.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_3_2_5",
+  "trial": "CAMA_chap_3_3_2_5__ZMrPRuR",
+  "source_result": "Chapter III, Theorem 3.2.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_1_1",
+  "trial": "CAMA_chap_3_4_1_1__tfXFRCo",
+  "source_result": "Chapter III, Theorem 4.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_1_3",
+  "trial": "CAMA_chap_3_4_1_3__qHyeaoH",
+  "source_result": "Chapter III, Corollary 4.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_2_1",
+  "trial": "CAMA_chap_3_4_2_1__jcQKZhu",
+  "source_result": "Chapter III, Lemma 4.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_2_3",
+  "trial": "CAMA_chap_3_4_2_3__RBLZPdx",
+  "source_result": "Chapter III, Proposition 4.2.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_2_4",
+  "trial": "CAMA_chap_3_4_2_4__75vzPvc",
+  "source_result": "Chapter III, Theorem 4.2.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_2_7",
+  "trial": "CAMA_chap_3_4_2_7__i3cTWXz",
+  "source_result": "Chapter III, Proposition 4.2.7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_3_1",
+  "trial": "CAMA_chap_3_4_3_1__Q6b4bsx",
+  "source_result": "Chapter III, Lemma 4.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_3_2",
+  "trial": "CAMA_chap_3_4_3_2__vwrGFPL",
+  "source_result": "Chapter III, Lemma 4.3.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_4_3_3",
+  "trial": "CAMA_chap_3_4_3_3__azQ3LnV",
+  "source_result": "Chapter III, Lemma 4.3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_5_1_2",
+  "trial": "CAMA_chap_3_5_1_2__LqMsdK6",
+  "source_result": "Chapter III, Proposition 5.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_5_1_3",
+  "trial": "CAMA_chap_3_5_1_3__nDsUfiJ",
+  "source_result": "Chapter III, Proposition 5.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_5_2_1",
+  "trial": "CAMA_chap_3_5_2_1__8gUoG8i",
+  "source_result": "Chapter III, Proposition 5.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_5_2_4",
+  "trial": "CAMA_chap_3_5_2_4__HDBizdk",
+  "source_result": "Chapter III, Proposition 5.2.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_5_2_5",
+  "trial": "CAMA_chap_3_5_2_5__kxMZPPD",
+  "source_result": "Chapter III, Corollary 5.2.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_5_3_1",
+  "trial": "CAMA_chap_3_5_3_1__2ae35BW",
+  "source_result": "Chapter III, Proposition 5.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "CAMA_chap_3_5_3_3",
+  "trial": "CAMA_chap_3_5_3_3__GPZ5MYe",
+  "source_result": "Chapter III, Proposition 5.3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_L2_3_1",
+  "trial": "Duchi_L2_3_1__Nq6wBB5",
+  "source_result": "Exercise Set 2, Lemma 2.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_L4_1_2",
+  "trial": "Duchi_L4_1_2__Qht3HGB",
+  "source_result": "Exercise Set 4, Lemma 4.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_L4_1_3",
+  "trial": "Duchi_L4_1_3__4yihG3Y",
+  "source_result": "Exercise Set 4, Lemma 4.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_L8_1_1",
+  "trial": "Duchi_L8_1_1__aP5wmKG",
+  "source_result": "Exercise Set 8, Lemma 8.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_P4_1_1",
+  "trial": "Duchi_P4_1_1__oTkbuc3",
+  "source_result": "Exercise Set 4, Proposition 4.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_Q1_1",
+  "trial": "Duchi_Q1_1__SzqnvKS",
+  "source_result": "Exercise Set 1, Question 1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_Q2_3",
+  "trial": "Duchi_Q2_3__v3zhVjp",
+  "source_result": "Exercise Set 2, Question 2.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_Q5_1",
+  "trial": "Duchi_Q5_1__YrrQdqs",
+  "source_result": "Exercise Set 5, Question 5.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_Q5_2a",
+  "trial": "Duchi_Q5_2a__Jq8gUfE",
+  "source_result": "Exercise Set 5, Question 5.2(a)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_Q5_2b",
+  "trial": "Duchi_Q5_2b__LdsnFgG",
+  "source_result": "Exercise Set 5, Question 5.2(b)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_Q5_2c",
+  "trial": "Duchi_Q5_2c__nP7RJ8k",
+  "source_result": "Exercise Set 5, Question 5.2(c)",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_Q9_1",
+  "trial": "Duchi_Q9_1__8YM3eEY",
+  "source_result": "Exercise Set 9, Question 9.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Duchi_T10_2_1",
+  "trial": "Duchi_T10_2_1__x5sjho5",
+  "source_result": "Exercise Set 10, Theorem 10.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_11",
+  "trial": "FCA_chap_A_ex_11__oRJyhcH",
+  "source_result": "Chapter A, Exercise 11",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_12",
+  "trial": "FCA_chap_A_ex_12__XhbTesY",
+  "source_result": "Chapter A, Exercise 12",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_13",
+  "trial": "FCA_chap_A_ex_13__5T7BtQa",
+  "source_result": "Chapter A, Exercise 13",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_14",
+  "trial": "FCA_chap_A_ex_14__WfKTDzv",
+  "source_result": "Chapter A, Exercise 14",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_15",
+  "trial": "FCA_chap_A_ex_15__6VSKdpX",
+  "source_result": "Chapter A, Exercise 15",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_18",
+  "trial": "FCA_chap_A_ex_18__5ysnSj3",
+  "source_result": "Chapter A, Exercise 18",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_2",
+  "trial": "FCA_chap_A_ex_2__mMAXvLp",
+  "source_result": "Chapter A, Exercise 2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_20",
+  "trial": "FCA_chap_A_ex_20__nVi7D2b",
+  "source_result": "Chapter A, Exercise 20",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_21",
+  "trial": "FCA_chap_A_ex_21__mvVGgJR",
+  "source_result": "Chapter A, Exercise 21",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_22",
+  "trial": "FCA_chap_A_ex_22__FzxG5ZB",
+  "source_result": "Chapter A, Exercise 22",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_23",
+  "trial": "FCA_chap_A_ex_23__9sZTA2J",
+  "source_result": "Chapter A, Exercise 23",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_26",
+  "trial": "FCA_chap_A_ex_26__YJVD6uy",
+  "source_result": "Chapter A, Exercise 26",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_3",
+  "trial": "FCA_chap_A_ex_3__G7ByWTn",
+  "source_result": "Chapter A, Exercise 3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_5",
+  "trial": "FCA_chap_A_ex_5__7mau8wU",
+  "source_result": "Chapter A, Exercise 5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_A_ex_8",
+  "trial": "FCA_chap_A_ex_8__KgYV7bM",
+  "source_result": "Chapter A, Exercise 8",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_1_2",
+  "trial": "FCA_chap_B_1_1_2__vd4jPuC",
+  "source_result": "Chapter B, Proposition 1.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_1_6",
+  "trial": "FCA_chap_B_1_1_6__a24nS5V",
+  "source_result": "Chapter B, Proposition 1.1.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_1_8",
+  "trial": "FCA_chap_B_1_1_8__K4HVQkh",
+  "source_result": "Chapter B, Theorem 1.1.8 (Inequality of Jensen)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_1_9",
+  "trial": "FCA_chap_B_1_1_9__pncefZS",
+  "source_result": "Chapter B, Proposition 1.1.9",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_2_1",
+  "trial": "FCA_chap_B_1_2_1__dZYu8uM",
+  "source_result": "Chapter B, Proposition 1.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_2_2",
+  "trial": "FCA_chap_B_1_2_2__73X7fdd",
+  "source_result": "Chapter B, Proposition 1.2.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_2_5",
+  "trial": "FCA_chap_B_1_2_5__nwuWbwx",
+  "source_result": "Chapter B, Proposition 1.2.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_2_6",
+  "trial": "FCA_chap_B_1_2_6__PAi55Dw",
+  "source_result": "Chapter B, Proposition 1.2.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_2_8",
+  "trial": "FCA_chap_B_1_2_8__hjmACpQ",
+  "source_result": "Chapter B, Proposition 1.2.8",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_1_3_1",
+  "trial": "FCA_chap_B_1_3_1__YGxRZef",
+  "source_result": "Chapter B, Theorem 1.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_1_1",
+  "trial": "FCA_chap_B_2_1_1__cg7evks",
+  "source_result": "Chapter B, Proposition 2.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_1_2",
+  "trial": "FCA_chap_B_2_1_2__5BvreR8",
+  "source_result": "Chapter B, Proposition 2.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_1_4",
+  "trial": "FCA_chap_B_2_1_4__fviRyZ3",
+  "source_result": "Chapter B, Proposition 2.1.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_2_1",
+  "trial": "FCA_chap_B_2_2_1__kkxeUv7",
+  "source_result": "Chapter B, Proposition 2.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_2_2",
+  "trial": "FCA_chap_B_2_2_2__29UrDSw",
+  "source_result": "Chapter B, Proposition 2.2.2",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_3_3",
+  "trial": "FCA_chap_B_2_3_3__EFm38sK",
+  "source_result": "Chapter B, Proposition 2.3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_4_2",
+  "trial": "FCA_chap_B_2_4_2__P99Pbw4",
+  "source_result": "Chapter B, Theorem 2.4.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_4_3",
+  "trial": "FCA_chap_B_2_4_3__MihSCjK",
+  "source_result": "Chapter B, Corollary 2.4.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_4_5",
+  "trial": "FCA_chap_B_2_4_5__27T5hNT",
+  "source_result": "Chapter B, Corollary 2.4.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_5_1",
+  "trial": "FCA_chap_B_2_5_1__P2KK9fc",
+  "source_result": "Chapter B, Proposition 2.5.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_5_2",
+  "trial": "FCA_chap_B_2_5_2__wpHiu5W",
+  "source_result": "Chapter B, Proposition 2.5.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_2_5_4",
+  "trial": "FCA_chap_B_2_5_4__CsPGp2B",
+  "source_result": "Chapter B, Proposition 2.5.4",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Proposition 2.5.4 in Hiriart-Urruty & Lemaréchal's Fundamentals of Convex Analysis"
+ },
+ {
+  "task": "FCA_chap_B_3_1_1",
+  "trial": "FCA_chap_B_3_1_1__JMqyAAc",
+  "source_result": "Chapter B, Lemma 3.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_1_2",
+  "trial": "FCA_chap_B_3_1_2__pkkJKRC",
+  "source_result": "Chapter B, Theorem 3.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_1_4",
+  "trial": "FCA_chap_B_3_1_4__Gdtgx4C",
+  "source_result": "Chapter B, Theorem 3.1.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_2_1",
+  "trial": "FCA_chap_B_3_2_1__SqhRH2m",
+  "source_result": "Chapter B, Proposition 3.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_2_4_i",
+  "trial": "FCA_chap_B_3_2_4_i__thRnec8",
+  "source_result": "Chapter B, Proposition 3.2.4, first part",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_2_4_ii",
+  "trial": "FCA_chap_B_3_2_4_ii__CoMpVG6",
+  "source_result": "Chapter B, Proposition 3.2.4, second part",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_2_6",
+  "trial": "FCA_chap_B_3_2_6__KXk5Wq9",
+  "source_result": "Chapter B, Proposition 3.2.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_2_8_i",
+  "trial": "FCA_chap_B_3_2_8_i__gy7eQjW",
+  "source_result": "Chapter B, Proposition 3.2.8, first item",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_2_8_ii",
+  "trial": "FCA_chap_B_3_2_8_ii__4mfo9rN",
+  "source_result": "Chapter B, Proposition 3.2.8, second item",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_3_2_8_iii",
+  "trial": "FCA_chap_B_3_2_8_iii__E6ZR82b",
+  "source_result": "Chapter B, Proposition 3.2.8, third item",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_4_1_1",
+  "trial": "FCA_chap_B_4_1_1__KwNH3CM",
+  "source_result": "Chapter B, Theorem 4.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_4_1_4",
+  "trial": "FCA_chap_B_4_1_4__nfnZYRM",
+  "source_result": "Chapter B, Theorem 4.1.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_4_2_1",
+  "trial": "FCA_chap_B_4_2_1__PUXAyvB",
+  "source_result": "Chapter B, Proposition 4.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_4_2_3",
+  "trial": "FCA_chap_B_4_2_3__9tfNvoT",
+  "source_result": "Chapter B, Theorem 4.2.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_ex_19",
+  "trial": "FCA_chap_B_ex_19__6qaNMwB",
+  "source_result": "Chapter B, Exercise 19",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_ex_21",
+  "trial": "FCA_chap_B_ex_21__CjESVzn",
+  "source_result": "Chapter B, Exercise 21",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_ex_24",
+  "trial": "FCA_chap_B_ex_24__qhJFVzT",
+  "source_result": "Chapter B, Exercise 24",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_B_ex_26",
+  "trial": "FCA_chap_B_ex_26__VLfYwH7",
+  "source_result": "Chapter B, Exercise 26",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_1_3",
+  "trial": "FCA_chap_C_1_1_3__pxj5DP7",
+  "source_result": "Chapter C, Proposition 1.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_1_4",
+  "trial": "FCA_chap_C_1_1_4__AAkK5Zm",
+  "source_result": "Chapter C, Proposition 1.1.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_1_5",
+  "trial": "FCA_chap_C_1_1_5__rkDXKFR",
+  "source_result": "Chapter C, Corollary 1.1.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_1_6",
+  "trial": "FCA_chap_C_1_1_6__anmQaXM",
+  "source_result": "Chapter C, Proposition 1.1.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_1_7",
+  "trial": "FCA_chap_C_1_1_7__hZ5heVe",
+  "source_result": "Chapter C, Proposition 1.1.7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_2_5",
+  "trial": "FCA_chap_C_1_2_5__2cwJnuK",
+  "source_result": "Chapter C, Theorem 1.2.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_2_6",
+  "trial": "FCA_chap_C_1_2_6__9MYzXT2",
+  "source_result": "Chapter C, Corollary 1.2.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_3_1_i",
+  "trial": "FCA_chap_C_1_3_1_i__Mz2WxTd",
+  "source_result": "Chapter C, Proposition 1.3.1(i)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_3_1_ii",
+  "trial": "FCA_chap_C_1_3_1_ii__oD7ynDZ",
+  "source_result": "Chapter C, Proposition 1.3.1(ii)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_3_2_i",
+  "trial": "FCA_chap_C_1_3_2_i__GM9CapX",
+  "source_result": "Chapter C, Proposition 1.3.2(i)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_3_2_ii",
+  "trial": "FCA_chap_C_1_3_2_ii__QGiwZk9",
+  "source_result": "Chapter C, Proposition 1.3.2(ii)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_1_3_5",
+  "trial": "FCA_chap_C_1_3_5__RhmRfnG",
+  "source_result": "Chapter C, Theorem 1.3.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_2_1_2",
+  "trial": "FCA_chap_C_2_1_2__Pua73fB",
+  "source_result": "Chapter C, Proposition 2.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_2_1_3",
+  "trial": "FCA_chap_C_2_1_3__K6s6CMf",
+  "source_result": "Chapter C, Proposition 2.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_2_2_1",
+  "trial": "FCA_chap_C_2_2_1__VRkLYec",
+  "source_result": "Chapter C, Proposition 2.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_2_2_2",
+  "trial": "FCA_chap_C_2_2_2__q657DKR",
+  "source_result": "Chapter C, Theorem 2.2.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_2_2_3",
+  "trial": "FCA_chap_C_2_2_3__GjYoyki",
+  "source_result": "Chapter C, Theorem 2.2.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_2_2_4",
+  "trial": "FCA_chap_C_2_2_4__dMdXGxQ",
+  "source_result": "Chapter C, Proposition 2.2.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_1_1",
+  "trial": "FCA_chap_C_3_1_1__ndq7bSo",
+  "source_result": "Chapter C, Theorem 3.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_1_2",
+  "trial": "FCA_chap_C_3_1_2__KAyvPGr",
+  "source_result": "Chapter C, Corollary 3.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_1_4",
+  "trial": "FCA_chap_C_3_1_4__okPdfaG",
+  "source_result": "Chapter C, Proposition 3.1.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_2_4",
+  "trial": "FCA_chap_C_3_2_4__3GZPJpH",
+  "source_result": "Chapter C, Proposition 3.2.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_2_5",
+  "trial": "FCA_chap_C_3_2_5__REU9sAw",
+  "source_result": "Chapter C, Corollary 3.2.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_2_7",
+  "trial": "FCA_chap_C_3_2_7__cbQ3VV7",
+  "source_result": "Chapter C, Proposition 3.2.7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_3_1",
+  "trial": "FCA_chap_C_3_3_1__W3Aimtu",
+  "source_result": "Chapter C, Theorem 3.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_3_2_i",
+  "trial": "FCA_chap_C_3_3_2_i__ADyNvRv",
+  "source_result": "Chapter C, Theorem 3.3.2(i)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_3_2_ii",
+  "trial": "FCA_chap_C_3_3_2_ii__xnAfrCt",
+  "source_result": "Chapter C, Theorem 3.3.2(ii)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_3_3",
+  "trial": "FCA_chap_C_3_3_3__JuVnCSd",
+  "source_result": "Chapter C, Proposition 3.3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_3_3_4",
+  "trial": "FCA_chap_C_3_3_4__CejhLGz",
+  "source_result": "Chapter C, Proposition 3.3.4",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_ex1",
+  "trial": "FCA_chap_C_ex1__r4iVJEG",
+  "source_result": "Chapter C, Exercise 1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_ex10",
+  "trial": "FCA_chap_C_ex10__X57wKZK",
+  "source_result": "Chapter C, Exercise 10",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_ex14",
+  "trial": "FCA_chap_C_ex14__bGSDfoB",
+  "source_result": "Chapter C, Exercise 14",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_ex2",
+  "trial": "FCA_chap_C_ex2__WXAUagH",
+  "source_result": "Chapter C, Exercise 2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_ex3",
+  "trial": "FCA_chap_C_ex3__V34R2aC",
+  "source_result": "Chapter C, Exercise 3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_ex4",
+  "trial": "FCA_chap_C_ex4__ycaiEMz",
+  "source_result": "Chapter C, Exercise 4",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_C_ex5",
+  "trial": "FCA_chap_C_ex5__emvJRBc",
+  "source_result": "Chapter C, Exercise 5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_1_2",
+  "trial": "FCA_chap_D_1_1_2__rvR6ZAT",
+  "source_result": "Chapter D, Proposition 1.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_1_6",
+  "trial": "FCA_chap_D_1_1_6__9sA9G43",
+  "source_result": "Chapter D, Proposition 1.1.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_2_2",
+  "trial": "FCA_chap_D_1_2_2__BJ9SwCH",
+  "source_result": "Chapter D, Theorem 1.2.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_3_1",
+  "trial": "FCA_chap_D_1_3_1__uhjb2NH",
+  "source_result": "Chapter D, Proposition 1.3.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_3_2",
+  "trial": "FCA_chap_D_1_3_2__CEQeJN9",
+  "source_result": "Chapter D, Lemma 1.3.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_3_3",
+  "trial": "FCA_chap_D_1_3_3__d78yDwc",
+  "source_result": "Chapter D, Proposition 1.3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_3_4",
+  "trial": "FCA_chap_D_1_3_4__FCWYsjs",
+  "source_result": "Chapter D, Theorem 1.3.4",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_1_3_5",
+  "trial": "FCA_chap_D_1_3_5__bzPsCMu",
+  "source_result": "Chapter D, Theorem 1.3.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_2_1_1",
+  "trial": "FCA_chap_D_2_1_1__amMgmZM",
+  "source_result": "Chapter D, Lemma 2.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_2_1_5",
+  "trial": "FCA_chap_D_2_1_5__wbj9BYT",
+  "source_result": "Chapter D, Proposition 2.1.5",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_2_2_1",
+  "trial": "FCA_chap_D_2_2_1__3dAEESN",
+  "source_result": "Chapter D, Theorem 2.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_2_3_1",
+  "trial": "FCA_chap_D_2_3_1__A4inxxz",
+  "source_result": "Chapter D, Lemma 2.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_2_3_3",
+  "trial": "FCA_chap_D_2_3_3__ePuRD5t",
+  "source_result": "Chapter D, Theorem 2.3.3",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_2_3_4",
+  "trial": "FCA_chap_D_2_3_4__vm4GzYG",
+  "source_result": "Chapter D, Theorem 2.3.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_1_1",
+  "trial": "FCA_chap_D_4_1_1__MjcDfTY",
+  "source_result": "Chapter D, Theorem 4.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_2_1",
+  "trial": "FCA_chap_D_4_2_1__7kT4aGj",
+  "source_result": "Chapter D, Theorem 4.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_3_1",
+  "trial": "FCA_chap_D_4_3_1__wMxRLQc",
+  "source_result": "Chapter D, Theorem 4.3.1",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Theorem D.4.3.1 in Hiriart-Urruty & Lemaréchal"
+ },
+ {
+  "task": "FCA_chap_D_4_3_2",
+  "trial": "FCA_chap_D_4_3_2__G8dXDMj",
+  "source_result": "Chapter D, Corollary 4.3.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_4_1",
+  "trial": "FCA_chap_D_4_4_1__PNtvLWF",
+  "source_result": "Chapter D, Lemma 4.4.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_4_2",
+  "trial": "FCA_chap_D_4_4_2__XGMJVdk",
+  "source_result": "Chapter D, Theorem 4.4.2",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_4_4",
+  "trial": "FCA_chap_D_4_4_4__SsGLet4",
+  "source_result": "Chapter D, Corollary 4.4.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_4_5",
+  "trial": "FCA_chap_D_4_4_5__9CbcaL3",
+  "source_result": "Chapter D, Corollary 4.4.5",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_5_1",
+  "trial": "FCA_chap_D_4_5_1__FVCuzg5",
+  "source_result": "Chapter D, Theorem 4.5.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_5_2",
+  "trial": "FCA_chap_D_4_5_2__8fyLo7C",
+  "source_result": "Chapter D, Corollary 4.5.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_4_5_5",
+  "trial": "FCA_chap_D_4_5_5__DXXDbLW",
+  "source_result": "Chapter D, Corollary 4.5.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_1_1",
+  "trial": "FCA_chap_D_6_1_1__77W5AJY",
+  "source_result": "Chapter D, Proposition 6.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_1_2",
+  "trial": "FCA_chap_D_6_1_2__Ff8eyhc",
+  "source_result": "Chapter D, Theorem 6.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_1_3",
+  "trial": "FCA_chap_D_6_1_3__fnSehms",
+  "source_result": "Chapter D, Proposition 6.1.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_2_1",
+  "trial": "FCA_chap_D_6_2_1__CzSjpkY",
+  "source_result": "Chapter D, Proposition 6.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_2_2",
+  "trial": "FCA_chap_D_6_2_2__kPKbdM4",
+  "source_result": "Chapter D, Proposition 6.2.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_2_4",
+  "trial": "FCA_chap_D_6_2_4__UPntebV",
+  "source_result": "Chapter D, Theorem 6.2.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_2_5",
+  "trial": "FCA_chap_D_6_2_5__dH6MPsk",
+  "source_result": "Chapter D, Corollary 6.2.5",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_2_7",
+  "trial": "FCA_chap_D_6_2_7__8qwuzTR",
+  "source_result": "Chapter D, Theorem 6.2.7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_2_8",
+  "trial": "FCA_chap_D_6_2_8__bVAb95Z",
+  "source_result": "Chapter D, Corollary 6.2.8",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_6_3_1",
+  "trial": "FCA_chap_D_6_3_1__rmMRNue",
+  "source_result": "Chapter D, Theorem 6.3.1",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Theorem D.6.3.1 from Hiriart-Urruty & Lemaréchal"
+ },
+ {
+  "task": "FCA_chap_D_ex11",
+  "trial": "FCA_chap_D_ex11__k8oREmc",
+  "source_result": "Chapter D, Exercise 11",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_ex12",
+  "trial": "FCA_chap_D_ex12__cDxrwH7",
+  "source_result": "Chapter D, Exercise 12",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_ex15",
+  "trial": "FCA_chap_D_ex15__4CvRrBQ",
+  "source_result": "Chapter D, Exercise 15",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_ex18",
+  "trial": "FCA_chap_D_ex18__wr6bCXT",
+  "source_result": "Chapter D, Exercise 18",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_ex2",
+  "trial": "FCA_chap_D_ex2__AztBAP4",
+  "source_result": "Chapter D, Exercise 2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_ex5",
+  "trial": "FCA_chap_D_ex5__bLapVvY",
+  "source_result": "Chapter D, Exercise 5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_ex6",
+  "trial": "FCA_chap_D_ex6__WFfirsf",
+  "source_result": "Chapter D, Exercise 6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_D_ex7",
+  "trial": "FCA_chap_D_ex7__G2xARqn",
+  "source_result": "Chapter D, Exercise 7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_1_2",
+  "trial": "FCA_chap_E_1_1_2__PZBAKHg",
+  "source_result": "Chapter E, Theorem 1.1.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_2_1",
+  "trial": "FCA_chap_E_1_2_1__HkjjQyB",
+  "source_result": "Chapter E, Proposition 1.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_i",
+  "trial": "FCA_chap_E_1_3_1_i__a6GkuVM",
+  "source_result": "Chapter E, Proposition 1.3.1(i)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_ii",
+  "trial": "FCA_chap_E_1_3_1_ii__kCnderz",
+  "source_result": "Chapter E, Proposition 1.3.1(ii)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_iii",
+  "trial": "FCA_chap_E_1_3_1_iii__2AHH2As",
+  "source_result": "Chapter E, Proposition 1.3.1(iii)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_iv",
+  "trial": "FCA_chap_E_1_3_1_iv__ZphdsJa",
+  "source_result": "Chapter E, Proposition 1.3.1(iv)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_v",
+  "trial": "FCA_chap_E_1_3_1_v__jk52UDG",
+  "source_result": "Chapter E, Proposition 1.3.1(v)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_vi",
+  "trial": "FCA_chap_E_1_3_1_vi__kMR25zu",
+  "source_result": "Chapter E, Proposition 1.3.1(vi)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_vii",
+  "trial": "FCA_chap_E_1_3_1_vii__d883FBn",
+  "source_result": "Chapter E, Proposition 1.3.1(vii)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_1_viii",
+  "trial": "FCA_chap_E_1_3_1_viii__Cy3KNJ7",
+  "source_result": "Chapter E, Proposition 1.3.1(viii)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_2",
+  "trial": "FCA_chap_E_1_3_2__CKTTfDU",
+  "source_result": "Chapter E, Proposition 1.3.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_4",
+  "trial": "FCA_chap_E_1_3_4__NCaGiQF",
+  "source_result": "Chapter E, Proposition 1.3.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_5",
+  "trial": "FCA_chap_E_1_3_5__EJq3hQx",
+  "source_result": "Chapter E, Theorem 1.3.5",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_6",
+  "trial": "FCA_chap_E_1_3_6__TPW2zT7",
+  "source_result": "Chapter E, Corollary 1.3.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_8",
+  "trial": "FCA_chap_E_1_3_8__Gv4m2AQ",
+  "source_result": "Chapter E, Proposition 1.3.8",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_3_9",
+  "trial": "FCA_chap_E_1_3_9__BFYghJP",
+  "source_result": "Chapter E, Proposition 1.3.9",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_4_1",
+  "trial": "FCA_chap_E_1_4_1__XthcGKm",
+  "source_result": "Chapter E, Theorem 1.4.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_4_2",
+  "trial": "FCA_chap_E_1_4_2__PL3QvNt",
+  "source_result": "Chapter E, Theorem 1.4.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_4_3",
+  "trial": "FCA_chap_E_1_4_3__8Z8MVsv",
+  "source_result": "Chapter E, Proposition 1.4.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_1_4_4",
+  "trial": "FCA_chap_E_1_4_4__poWhJNX",
+  "source_result": "Chapter E, Corollary 1.4.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_2_1_1",
+  "trial": "FCA_chap_E_2_1_1__VvkYxW2",
+  "source_result": "Chapter E, Theorem 2.1.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_2_2_1",
+  "trial": "FCA_chap_E_2_2_1__At9SWFD",
+  "source_result": "Chapter E, Theorem 2.2.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_2_2_2",
+  "trial": "FCA_chap_E_2_2_2__fAxbKxn",
+  "source_result": "Chapter E, Lemma 2.2.2",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Theorem E.2.2.2 in Hiriart-Urruty & Lemaréchal's convex analysis text"
+ },
+ {
+  "task": "FCA_chap_E_2_2_3",
+  "trial": "FCA_chap_E_2_2_3__Sffo7JU",
+  "source_result": "Chapter E, Theorem 2.2.3",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_2_3_1",
+  "trial": "FCA_chap_E_2_3_1__aebWARu",
+  "source_result": "Chapter E, Theorem 2.3.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_2_3_2",
+  "trial": "FCA_chap_E_2_3_2__rq7Nwe7",
+  "source_result": "Chapter E, Theorem 2.3.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_3_3_1",
+  "trial": "FCA_chap_E_3_3_1__n2PvVXz",
+  "source_result": "Chapter E, Proposition 3.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_4_1_1",
+  "trial": "FCA_chap_E_4_1_1__hCFhfff",
+  "source_result": "Chapter E, Theorem 4.1.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_4_1_2",
+  "trial": "FCA_chap_E_4_1_2__MjsNrNV",
+  "source_result": "Chapter E, Theorem 4.1.2",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_4_1_3",
+  "trial": "FCA_chap_E_4_1_3__U3ByBbv",
+  "source_result": "Chapter E, Corollary 4.1.3",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Theorem 4.1.3 from Hiriart-Urruty & Lemaréchal's Fundamentals of Convex Analysis"
+ },
+ {
+  "task": "FCA_chap_E_4_2_1",
+  "trial": "FCA_chap_E_4_2_1__LFBjU96",
+  "source_result": "Chapter E, Theorem 4.2.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_4_2_2",
+  "trial": "FCA_chap_E_4_2_2__68sR4FZ",
+  "source_result": "Chapter E, Theorem 4.2.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_ex15",
+  "trial": "FCA_chap_E_ex15__YA8RoH5",
+  "source_result": "Chapter E, Exercise 15",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_ex2",
+  "trial": "FCA_chap_E_ex2__tQuKvXL",
+  "source_result": "Chapter E, Exercise 2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_ex4",
+  "trial": "FCA_chap_E_ex4__SsttkbF",
+  "source_result": "Chapter E, Exercise 4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_ex5",
+  "trial": "FCA_chap_E_ex5__rWhxt2A",
+  "source_result": "Chapter E, Exercise 5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_ex6",
+  "trial": "FCA_chap_E_ex6__F9mFn3D",
+  "source_result": "Chapter E, Exercise 6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_ex7",
+  "trial": "FCA_chap_E_ex7__bWW3xFE",
+  "source_result": "Chapter E, Exercise 7",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FCA_chap_E_ex9",
+  "trial": "FCA_chap_E_ex9__wWeppDY",
+  "source_result": "Chapter E, Exercise 9",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "FISTA_bound",
+  "trial": "FISTA_bound__5XpDtx2",
+  "source_result": "Unnumbered display, Section 5.1 (FISTA), p. 311",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's classical FISTA convergence analysis"
+ },
+ {
+  "task": "ISTA_bound",
+  "trial": "ISTA_bound__FRkR22V",
+  "source_result": "Unnumbered display after (5.1), Section 5.1, p. 310",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_11_14",
+  "trial": "RW_chap_11_14__yZ3eBoA",
+  "source_result": "Theorem 11.14",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 11.14"
+ },
+ {
+  "task": "RW_chap_11_15",
+  "trial": "RW_chap_11_15__RTdk4HW",
+  "source_result": "Lemma 11.15",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_11_17",
+  "trial": "RW_chap_11_17__3tET5bz",
+  "source_result": "Corollary 11.17",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_11_34",
+  "trial": "RW_chap_11_34__ovvfHZ6",
+  "source_result": "Theorem 11.34",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Theorem 11.34 in Rockafellar-Wets"
+ },
+ {
+  "task": "RW_chap_11_36",
+  "trial": "RW_chap_11_36__88EHoVX",
+  "source_result": "Theorem 11.36",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets exercise 11.36"
+ },
+ {
+  "task": "RW_chap_11_8",
+  "trial": "RW_chap_11_8__wv7YUEa",
+  "source_result": "Theorem 11.8",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 11.8"
+ },
+ {
+  "task": "RW_chap_12_15",
+  "trial": "RW_chap_12_15__MtyLvae",
+  "source_result": "Theorem 12.15",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets' Variational Analysis ... Theorem 12.15 gives the Minty parameterization"
+ },
+ {
+  "task": "RW_chap_12_16",
+  "trial": "RW_chap_12_16__wASWHBG",
+  "source_result": "Exercise 12.16",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_12_17",
+  "trial": "RW_chap_12_17__gXgQkYb",
+  "source_result": "Theorem 12.17",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 12.17"
+ },
+ {
+  "task": "RW_chap_12_18",
+  "trial": "RW_chap_12_18__nBQr7yr",
+  "source_result": "Corollary 12.18",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_12_19",
+  "trial": "RW_chap_12_19__AoqnHP3",
+  "source_result": "Proposition 12.19",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 12.19"
+ },
+ {
+  "task": "RW_chap_12_20",
+  "trial": "RW_chap_12_20__EfWqAep",
+  "source_result": "Corollary 12.20",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Example 12.20"
+ },
+ {
+  "task": "RW_chap_12_32",
+  "trial": "RW_chap_12_32__ErMX6iJ",
+  "source_result": "Theorem 12.32",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 12.32"
+ },
+ {
+  "task": "RW_chap_12_35",
+  "trial": "RW_chap_12_35__TVwuc92",
+  "source_result": "Theorem 12.35",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 12.35"
+ },
+ {
+  "task": "RW_chap_12_37",
+  "trial": "RW_chap_12_37__hhXvkCr",
+  "source_result": "Theorem 12.37",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 12.37"
+ },
+ {
+  "task": "RW_chap_12_38",
+  "trial": "RW_chap_12_38__6A9sz8C",
+  "source_result": "Corollary 12.38",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "the Rockafellar–Wets statement (12.38)"
+ },
+ {
+  "task": "RW_chap_12_41",
+  "trial": "RW_chap_12_41__7zoypxL",
+  "source_result": "Theorem 12.41",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 12.41"
+ },
+ {
+  "task": "RW_chap_8_11",
+  "trial": "RW_chap_8_11__a3Y7fUA",
+  "source_result": "Corollary 8.11",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Corollary 8.11"
+ },
+ {
+  "task": "RW_chap_8_12",
+  "trial": "RW_chap_8_12__r66NTbY",
+  "source_result": "Proposition 8.12",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_8_15",
+  "trial": "RW_chap_8_15__5aXjQCw",
+  "source_result": "Theorem 8.15",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 8.15"
+ },
+ {
+  "task": "RW_chap_8_18",
+  "trial": "RW_chap_8_18__pxnAnHx",
+  "source_result": "Theorem 8.18",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "RW Theorem 8.18"
+ },
+ {
+  "task": "RW_chap_8_21",
+  "trial": "RW_chap_8_21__guniHR8",
+  "source_result": "Proposition 8.21",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_8_22",
+  "trial": "RW_chap_8_22__vLYimmH",
+  "source_result": "Theorem 8.22",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 8.22"
+ },
+ {
+  "task": "RW_chap_8_24",
+  "trial": "RW_chap_8_24__cPoxE53",
+  "source_result": "Theorem 8.24",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_8_25",
+  "trial": "RW_chap_8_25__FDGEPdn",
+  "source_result": "Corollary 8.25",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_8_29",
+  "trial": "RW_chap_8_29__6kBCYxP",
+  "source_result": "Proposition 8.29",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_8_30",
+  "trial": "RW_chap_8_30__daBe7xL",
+  "source_result": "Theorem 8.30",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 8.30"
+ },
+ {
+  "task": "RW_chap_8_32",
+  "trial": "RW_chap_8_32__Q6vwNkE",
+  "source_result": "Proposition 8.32",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets' Variational Analysis, specifically Proposition 8.32"
+ },
+ {
+  "task": "RW_chap_9_10",
+  "trial": "RW_chap_9_10__Zguway9",
+  "source_result": "Proposition 9.10",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_9_12",
+  "trial": "RW_chap_9_12__vxBf5Pf",
+  "source_result": "Exercise 9.12",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "RW_chap_9_13",
+  "trial": "RW_chap_9_13__Rc9KfLg",
+  "source_result": "Theorem 9.13",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 9.13"
+ },
+ {
+  "task": "RW_chap_9_16",
+  "trial": "RW_chap_9_16__FUSdSec",
+  "source_result": "Theorem 9.16",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Theorem 9.16"
+ },
+ {
+  "task": "RW_chap_9_19",
+  "trial": "RW_chap_9_19__rSbmwtw",
+  "source_result": "Corollary 9.19",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Rockafellar-Wets Corollary 9.19"
+ },
+ {
+  "task": "Renegar_chap_2_2_2_10",
+  "trial": "Renegar_chap_2_2_2_10__ebPSr9n",
+  "source_result": "Proposition 2.2.10",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Renegar_chap_2_2_2_9",
+  "trial": "Renegar_chap_2_2_2_9__AhNBWFh",
+  "source_result": "Theorem 2.2.9",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Renegar's Theorem 2.2.9"
+ },
+ {
+  "task": "Renegar_chap_2_2_3_1",
+  "trial": "Renegar_chap_2_2_3_1__TiXVW6U",
+  "source_result": "Theorem 2.3.1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Renegar_chap_2_2_3_3",
+  "trial": "Renegar_chap_2_2_3_3__xoszgWW",
+  "source_result": "Theorem 2.3.3",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Renegar's Theorem 2.3.3"
+ },
+ {
+  "task": "Renegar_chap_2_2_3_4",
+  "trial": "Renegar_chap_2_2_3_4__LqawCnW",
+  "source_result": "Theorem 2.3.4",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Theorem 2.3.4 / memory note 'Renegar 2.3.4 solved'"
+ },
+ {
+  "task": "Renegar_chap_2_2_3_5",
+  "trial": "Renegar_chap_2_2_3_5__5Wn7XPQ",
+  "source_result": "Corollary 2.3.5",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Renegar's Theorem 2.3.5"
+ },
+ {
+  "task": "Renegar_chap_2_2_3_6",
+  "trial": "Renegar_chap_2_2_3_6__YmWviSr",
+  "source_result": "Corollary 2.3.6",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Renegar_chap_2_2_3_8",
+  "trial": "Renegar_chap_2_2_3_8__ouhuD4a",
+  "source_result": "Theorem 2.3.8",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Renegar_chap_2_2_3_9_i",
+  "trial": "Renegar_chap_2_2_3_9_i__K76FVcM",
+  "source_result": "Theorem 2.3.9, first part",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Renegar's Theorem 2.3.9"
+ },
+ {
+  "task": "Renegar_chap_2_2_3_9_ii",
+  "trial": "Renegar_chap_2_2_3_9_ii__358WTRP",
+  "source_result": "Theorem 2.3.9, second part",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "Renegar_chap_2_2_5_1",
+  "trial": "Renegar_chap_2_2_5_1__AKcWt5M",
+  "source_result": "Theorem 2.5.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "brunn_minkowski",
+  "trial": "brunn_minkowski__c9R5ACj",
+  "source_result": "Brunn–Minkowski inequality",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "brunn_minkowski_1d",
+  "trial": "brunn_minkowski_1d__xM3AnFD",
+  "source_result": "Brunn–Minkowski inequality, one-dimensional case",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "brunn_minkowski_multiplicative",
+  "trial": "brunn_minkowski_multiplicative__NgdMPZT",
+  "source_result": "Brunn–Minkowski inequality, multiplicative form",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "bubeck_3_13",
+  "trial": "bubeck_3_13__imYtohz",
+  "source_result": "Theorem 3.13",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's Theorem 3.13"
+ },
+ {
+  "task": "bubeck_3_14",
+  "trial": "bubeck_3_14__yu39SqM",
+  "source_result": "Theorem 3.14",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's Theorem 3.14"
+ },
+ {
+  "task": "center_of_gravity_bound",
+  "trial": "center_of_gravity_bound__qnH3n4b",
+  "source_result": "Theorem 2.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "dual_averaging_bound",
+  "trial": "dual_averaging_bound__ZJ5aUi6",
+  "source_result": "Theorem 4.3",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "ellipsoid_method_bound",
+  "trial": "ellipsoid_method_bound__FPVMt6R",
+  "source_result": "Theorem 2.4",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's Theorem 2.4"
+ },
+ {
+  "task": "frank_wolfe_smooth_bound",
+  "trial": "frank_wolfe_smooth_bound__wWqdPCH",
+  "source_result": "Theorem 3.8",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "gradient_descent_smooth_bound",
+  "trial": "gradient_descent_smooth_bound__6jvAJyt",
+  "source_result": "Theorem 3.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "gradient_descent_smooth_strongly_convex_bound",
+  "trial": "gradient_descent_smooth_strongly__4CKYqfT",
+  "source_result": "Theorem 3.12",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "grunbaum",
+  "trial": "grunbaum__e7N4JKr",
+  "source_result": "Lemma 2.2 (Grünbaum)",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "ipm_path_following_bound_centered",
+  "trial": "ipm_path_following_bound_centere__vuPUwoX",
+  "source_result": "Theorem 5.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "minibatch_stochastic_gradient_descent_bound",
+  "trial": "minibatch_stochastic_gradient_de__WXG8in7",
+  "source_result": "Unnumbered display, Section 6.2 (mini-batch SGD), p. 334",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's convex optimization theorem for mini-batch SGD"
+ },
+ {
+  "task": "mirror_descent_bound",
+  "trial": "mirror_descent_bound__4MRwWvr",
+  "source_result": "Theorem 4.2",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "mirror_prox_bound",
+  "trial": "mirror_prox_bound__f6E9xMK",
+  "source_result": "Theorem 4.4",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's text, specifically Theorem 4.4"
+ },
+ {
+  "task": "nesterov_smooth_convex_bound",
+  "trial": "nesterov_smooth_convex_bound__pcgKDS2",
+  "source_result": "Theorem 3.19",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "nesterov_smooth_strongly_convex_bound",
+  "trial": "nesterov_smooth_strongly_convex__DQsWFuc",
+  "source_result": "Theorem 3.18",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's Theorem 3.18"
+ },
+ {
+  "task": "newton_decrement_bound",
+  "trial": "newton_decrement_bound__V8hitGh",
+  "source_result": "Theorem 5.4",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "newtons_method_bound",
+  "trial": "newtons_method_bound__xKsHw7X",
+  "source_result": "Theorem 5.3",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "prekopa_leindler_1d",
+  "trial": "prekopa_leindler_1d__w6vp6Tf",
+  "source_result": "Prékopa–Leindler inequality, one-dimensional case",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "projected_gradient_descent_smooth_bound",
+  "trial": "projected_gradient_descent_smoot__XyGS59w",
+  "source_result": "Theorem 3.7",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "projected_gradient_descent_smooth_strongly_convex_bound",
+  "trial": "projected_gradient_descent_smoot__gYjfvom",
+  "source_result": "Theorem 3.10",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's convex optimization text (Theorem 3.10)"
+ },
+ {
+  "task": "randomized_coordinate_descent_bound",
+  "trial": "randomized_coordinate_descent_bo__miLLqmm",
+  "source_result": "Theorem 6.6",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "randomized_coordinate_descent_gamma_bound",
+  "trial": "randomized_coordinate_descent_ga__fb4AGZx",
+  "source_result": "Theorem 6.7",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "randomized_coordinate_descent_gamma_stronglyconvex_bound",
+  "trial": "randomized_coordinate_descent_ga__jvjCJYD",
+  "source_result": "Theorem 6.8",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "saddle_point_mirror_descent_bound",
+  "trial": "saddle_point_mirror_descent_boun__LxPUEr4",
+  "source_result": "Theorem 5.1",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's convex optimization text, Theorem 5.1"
+ },
+ {
+  "task": "saddle_point_mirror_prox_bound",
+  "trial": "saddle_point_mirror_prox_bound__NAtXb7Q",
+  "source_result": "Theorem 5.2",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "sag_bound_centered",
+  "trial": "sag_bound_centered__kzS6Da7",
+  "source_result": "SAG convergence theorem, convex case",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Schmidt, Le Roux, and Bach's SAG paper"
+ },
+ {
+  "task": "sag_strongly_convex_linear_bound",
+  "trial": "sag_strongly_convex_linear_bound__c7htPbh",
+  "source_result": "SAG convergence under strong convexity",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "the SAG convergence theorem from Schmidt, Le Roux, and Bach"
+ },
+ {
+  "task": "saga_convex_average_bound",
+  "trial": "saga_convex_average_bound__HNGgtgU",
+  "source_result": "Theorem 2, Appendix C",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Theorem 2 from Defazio et al.'s original SAGA paper"
+ },
+ {
+  "task": "saga_strongly_convex_distance_bound",
+  "trial": "saga_strongly_convex_distance_bo__eHj5DcE",
+  "source_result": "Corollary 1",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "stochastic_gradient_descent_bound",
+  "trial": "stochastic_gradient_descent_boun__BELdZYf",
+  "source_result": "Theorem 6.2",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's Theorem 6.2"
+ },
+ {
+  "task": "stochastic_mirror_descent_bound",
+  "trial": "stochastic_mirror_descent_bound__epRF4eD",
+  "source_result": "Theorem 6.1",
+  "textbook_named": true,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "stochastic_mirror_descent_bound_smooth",
+  "trial": "stochastic_mirror_descent_bound__LYnj4Bp",
+  "source_result": "Theorem 6.3",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's ... Theorem 6.3"
+ },
+ {
+  "task": "subgradient_bound",
+  "trial": "subgradient_bound__StfM9UP",
+  "source_result": "Theorem 3.2",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ },
+ {
+  "task": "subgradient_strongly_convex_bound",
+  "trial": "subgradient_strongly_convex_boun__cVMpTA6",
+  "source_result": "Theorem 3.9",
+  "textbook_named": true,
+  "result_named": true,
+  "agent_reference": "Bubeck's Theorem 3.9"
+ },
+ {
+  "task": "svrg_bound",
+  "trial": "svrg_bound__hGMUNvR",
+  "source_result": "Theorem 6.5",
+  "textbook_named": false,
+  "result_named": false,
+  "agent_reference": null
+ }
+]

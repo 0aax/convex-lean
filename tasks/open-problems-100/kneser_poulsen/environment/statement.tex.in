@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Kneser--Poulsen conjecture]
+Let $n, m \ge 1$ and let $p_1, \dots, p_m$ and $q_1, \dots, q_m$ be two configurations of points in $\mathbb{R}^n$ such that the second is a \emph{contraction} of the first: every pairwise distance weakly decreases,
+\begin{align*}
+  \| p_i - p_j \| \ge \| q_i - q_j \| \quad \text{for all } i, j.
+\end{align*}
+Fix radii $r_1, \dots, r_m > 0$, the same radii for both configurations, and write $B(x, r)$ for the ball of radius $r$ centred at $x$. Then contracting the centres cannot increase the volume of the union of the balls:
+\begin{align*}
+  \operatorname{vol} \left( \bigcup_{i=1}^{m} B(p_i, r_i) \right) \ge \operatorname{vol} \left( \bigcup_{i=1}^{m} B(q_i, r_i) \right).
+\end{align*}
+\end{conjecture}
+
+\end{document}

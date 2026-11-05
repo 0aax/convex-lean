@@ -1,0 +1,22 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Borsuk's partition conjecture]
+For $n \le 62$, every bounded set $A \subset \mathbb{R}^n$ with $\operatorname{diam} A > 0$ can be partitioned into $n + 1$ subsets of strictly smaller diameter:
+\begin{align*}
+  A = \bigcup_{i = 1}^{n + 1} A_i, \qquad \operatorname{diam} (A_i) < \operatorname{diam} (A) \ \ \text{for every } i.
+\end{align*}
+\end{conjecture}
+
+\end{document}

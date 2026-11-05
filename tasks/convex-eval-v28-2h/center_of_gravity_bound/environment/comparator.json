@@ -1,0 +1,13 @@
+{
+  "challenge_module": "LeanWorkspace.Challenge",
+  "solution_module": "LeanWorkspace.center_of_gravity_bound",
+  "theorem_names": [
+    "center_of_gravity_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

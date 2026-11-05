@@ -1,0 +1,13 @@
+{
+  "challenge_module": "LeanWorkspace.Challenge",
+  "solution_module": "LeanWorkspace.svrg_bound",
+  "theorem_names": [
+    "svrg_bound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

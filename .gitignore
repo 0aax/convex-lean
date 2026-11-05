@@ -1,0 +1,15 @@
+.env
+jobs/
+jobs.zip
+*.egg-info/
+__pycache__/
+.venv/
+.DS_Store
+
+# the source corpus (textbook PDFs) and its copies in each autoformalization task's
+# build context; not redistributable, see README
+textbooks/
+tasks/autoformalize*/*/environment/corpus/
+
+# Lake build output if an Aristotle project under aristotle/projects/ is built locally
+.lake/

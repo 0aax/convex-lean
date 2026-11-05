@@ -1,0 +1,13 @@
+{
+  "challenge_module": "LeanWorkspace.Challenge",
+  "solution_module": "LeanWorkspace.GeneralizedLax_neg",
+  "theorem_names": [
+    "generalized_lax_NEG"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

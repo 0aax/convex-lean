@@ -1,0 +1,19 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{problem}{Problem}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{problem}[The fixed point property for reflexive Banach spaces]
+Let $X$ be a reflexive Banach space, $C \subseteq X$ nonempty, closed, bounded and convex, and $T : C \to C$ nonexpansive, i.e. $\left\| T x - T y \right\| \le \left\| x - y \right\|$ for all $x, y \in C$. Must $T$ have a fixed point?
+\end{problem}
+
+\end{document}

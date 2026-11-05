@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-code-thinking"
+version = "0.1.0"
+description = "Harbor's claude-code agent with the CLI's --thinking-display flag exposed."
+requires-python = ">=3.12"
+dependencies = ["harbor>=0.20.0"]
+
+[tool.setuptools.packages.find]
+include = ["claude_code_thinking*"]

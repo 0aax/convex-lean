@@ -1,0 +1,977 @@
+{
+  "job_name": "convex-eval-v28-2h",
+  "n_concurrent_trials": 40,
+  "environment_build_timeout_multiplier": 4.0,
+  "n_attempts": 1,
+  "environment": {
+    "type": "daytona",
+    "delete": true,
+    "kwargs": {
+      "auto_delete_interval_mins": 60
+    }
+  },
+  "agents": [
+    {
+      "import_path": "claude_code_thinking:GatedClaudeCodeThinking",
+      "model_name": "anthropic/claude-opus-5-5",
+      "env": {
+        "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": "0"
+      },
+      "kwargs": {
+        "gate_time_limit_sec": "7200",
+        "gate_idle_cycles": "25",
+        "gate_continue_message": "Continue working on the problem. When you have a complete proof, run `submit`.",
+        "thinking_display": "summarized",
+        "reasoning_effort": "max",
+        "version": "2.1.285"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "path": "tasks/convex-eval-v28-2h/BC_chap_13_37"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/BC_chap_16_17"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/BC_chap_20_25"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/BC_chap_6_30"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/BC_chap_7_12"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/BC_chap_8_38"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/BC_chap_9_20"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_1_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_1_2_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_1_2_7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_1_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_1_3_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_1_3_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_1_4_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_1_10"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_1_12"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_1_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_1_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_2_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_3_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_3_7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_2_4_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_3_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_3_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_3_2_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_3_2_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_2_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_2_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_2_7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_3_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_4_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_5_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_5_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_5_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_5_2_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_5_2_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_5_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/CAMA_chap_3_5_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_L2_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_L4_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_L4_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_L8_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_P4_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_Q1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_Q2_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_Q5_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_Q5_2a"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_Q5_2b"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_Q5_2c"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_Q9_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Duchi_T10_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_11"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_12"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_13"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_14"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_15"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_18"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_20"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_21"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_22"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_23"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_26"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_A_ex_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_1_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_1_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_1_9"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_2_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_2_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_2_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_2_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_1_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_1_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_2_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_4_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_4_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_4_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_5_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_5_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_2_5_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_1_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_2_4_i"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_2_4_ii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_2_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_2_8_i"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_2_8_ii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_3_2_8_iii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_4_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_4_1_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_4_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_4_2_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_ex_19"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_ex_21"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_ex_24"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_B_ex_26"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_1_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_1_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_1_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_1_7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_2_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_2_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_3_1_i"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_3_1_ii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_3_2_i"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_3_2_ii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_1_3_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_2_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_2_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_2_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_2_2_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_2_2_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_2_2_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_1_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_2_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_2_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_2_7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_3_2_i"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_3_2_ii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_3_3_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_ex1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_ex10"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_ex14"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_ex2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_ex3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_ex4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_C_ex5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_1_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_2_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_3_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_3_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_1_3_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_2_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_2_1_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_2_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_2_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_2_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_2_3_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_3_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_4_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_4_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_4_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_4_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_5_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_5_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_4_5_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_2_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_2_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_2_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_2_7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_2_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_6_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex11"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex12"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex15"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex18"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_D_ex7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_i"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_ii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_iii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_iv"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_v"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_vi"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_vii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_1_viii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_3_9"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_4_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_4_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_4_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_1_4_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_2_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_2_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_2_2_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_2_2_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_2_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_2_3_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_3_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_4_1_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_4_1_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_4_1_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_4_2_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_4_2_2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_ex15"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_ex2"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_ex4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_ex5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_ex6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_ex7"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FCA_chap_E_ex9"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/FISTA_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/ISTA_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_11_14"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_11_15"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_11_17"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_11_34"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_11_36"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_11_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_15"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_16"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_17"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_18"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_19"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_20"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_32"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_35"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_37"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_38"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_12_41"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_11"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_12"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_15"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_18"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_21"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_22"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_24"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_25"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_29"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_30"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_8_32"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_9_10"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_9_12"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_9_13"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_9_16"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/RW_chap_9_19"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_2_10"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_2_9"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_3"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_4"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_5"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_6"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_8"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_9_i"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_3_9_ii"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/Renegar_chap_2_2_5_1"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/brunn_minkowski"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/brunn_minkowski_1d"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/brunn_minkowski_multiplicative"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/bubeck_3_13"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/bubeck_3_14"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/center_of_gravity_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/dual_averaging_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/ellipsoid_method_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/frank_wolfe_smooth_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/gradient_descent_smooth_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/gradient_descent_smooth_strongly_convex_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/grunbaum"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/ipm_path_following_bound_centered"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/minibatch_stochastic_gradient_descent_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/mirror_descent_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/mirror_prox_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/nesterov_smooth_convex_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/nesterov_smooth_strongly_convex_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/newton_decrement_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/newtons_method_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/prekopa_leindler_1d"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/projected_gradient_descent_smooth_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/projected_gradient_descent_smooth_strongly_convex_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/randomized_coordinate_descent_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/randomized_coordinate_descent_gamma_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/randomized_coordinate_descent_gamma_stronglyconvex_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/saddle_point_mirror_descent_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/saddle_point_mirror_prox_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/sag_bound_centered"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/sag_strongly_convex_linear_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/saga_convex_average_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/saga_strongly_convex_distance_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/stochastic_gradient_descent_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/stochastic_mirror_descent_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/stochastic_mirror_descent_bound_smooth"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/subgradient_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/subgradient_strongly_convex_bound"
+    },
+    {
+      "path": "tasks/convex-eval-v28-2h/svrg_bound"
+    }
+  ]
+}

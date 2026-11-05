@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Reinhardt's conjecture]
+Let $K \subseteq \mathbb{R}^2$ be a convex disc (compact, convex, with non-empty interior). A \emph{packing} of the plane by congruent copies of $K$ is a sequence $(g_i)_{i \in \mathbb{N}}$ of isometries of $\mathbb{R}^2$ such that the sets $g_i(K)$ have pairwise disjoint interiors. Its density is the asymptotic fraction of area covered,
+\begin{align*}
+  \delta \left( K, (g_i) \right) = \limsup_{r \to \infty} \frac{\operatorname{vol} \left( \bigcup_{i} g_i(K) \cap B(0, r) \right)}{\operatorname{vol} \left( B(0, r) \right)},
+\end{align*}
+and the packing density of $K$ is the supremum over all packings,
+\begin{align*}
+  \delta(K) = \sup_{(g_i)} \delta \left( K, (g_i) \right).
+\end{align*}
+Call $K$ centrally symmetric if $x \in K$ exactly when $-x \in K$. Then the packing density of every centrally symmetric convex disc is at least that of the smoothed octagon:
+\begin{align*}
+  \delta(K) \ge \frac{8 - 4 \sqrt{2} - \log 2}{2 \sqrt{2} - 1} \approx 0.902414 .
+\end{align*}
+\end{conjecture}
+
+\end{document}

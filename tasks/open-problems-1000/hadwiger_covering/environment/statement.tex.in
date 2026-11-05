@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Hadwiger's covering conjecture]
+Every convex body $K \subset \mathbb{R}^n$ satisfies, for some $x_i \in \mathbb{R}^n$ and $\lambda_i \in (0, 1)$,
+\begin{align*}
+  K \ \subseteq \ \bigcup_{i = 1}^{2^n} \left( x_i + \lambda_i K \right),
+\end{align*}
+with $2^n$ required only for parallelepipeds. Equivalently, $2^n$ external light sources suffice to illuminate $\partial K$.
+\end{conjecture}
+
+\end{document}

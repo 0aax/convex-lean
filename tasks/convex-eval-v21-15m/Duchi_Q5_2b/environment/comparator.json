@@ -1,0 +1,12 @@
+{
+  "challenge_module": "LeanWorkspace.Challenge",
+  "solution_module": "LeanWorkspace.Duchi_Q5_2b",
+  "theorem_names": [
+    "Duchi_Q5_2b"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ]
+}

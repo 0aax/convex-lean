@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[The log-Brunn--Minkowski conjecture]
+For symmetric convex bodies $K, L \subset \mathbb{R}^n$ and $\lambda \in [0, 1]$, set
+\begin{align*}
+  (1 - \lambda) \cdot K +_0 \lambda \cdot L \ := \ \left\{ x : \ \left\langle x, u \right\rangle \le h_K (u)^{1 - \lambda} h_L (u)^\lambda \ \forall u \in \mathbb{S}^{n - 1} \right\}.
+\end{align*}
+Then
+\begin{align*}
+  \operatorname{vol} \left( (1 - \lambda) \cdot K +_0 \lambda \cdot L \right) \ \ge \ \operatorname{vol} (K)^{1 - \lambda} \operatorname{vol} (L)^\lambda.
+\end{align*}
+\end{conjecture}
+
+\end{document}

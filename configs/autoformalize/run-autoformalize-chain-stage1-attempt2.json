@@ -1,0 +1,58 @@
+{
+    "job_name": "autoformalize-chain-stage1-attempt2",
+    "n_concurrent_trials": 15,
+    "environment_build_timeout_multiplier": 4.0,
+    "n_attempts": 1,
+    "environment": {
+        "type": "daytona",
+        "delete": true,
+        "kwargs": {
+            "auto_delete_interval_mins": 60
+        }
+    },
+    "agents": [
+        {
+            "import_path": "claude_code_thinking:ClaudeCodeThinking",
+            "model_name": "anthropic/claude-opus-5-5",
+            "env": {
+                "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": "0"
+            },
+            "kwargs": {
+                "thinking_display": "summarized",
+                "reasoning_effort": "max",
+                "version": "2.1.285"
+            }
+        },
+        {
+            "import_path": "claude_code_thinking:ClaudeCodeThinking",
+            "model_name": "anthropic/claude-fable-5-1",
+            "env": {
+                "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": "0"
+            },
+            "kwargs": {
+                "thinking_display": "summarized",
+                "reasoning_effort": "max",
+                "version": "2.1.285"
+            }
+        },
+        {
+            "name": "codex",
+            "model_name": "openai/gpt-6-astra",
+            "kwargs": {
+                "reasoning_effort": "max",
+                "reasoning_summary": "detailed"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/autoformalize-chain-stage1/FCA_chap_B_4_1_4"
+        },
+        {
+            "path": "tasks/autoformalize-chain-stage1/FCA_chap_B_1_2_1"
+        },
+        {
+            "path": "tasks/autoformalize-chain-stage1/FCA_chap_B_3_2_4_ii"
+        }
+    ]
+}

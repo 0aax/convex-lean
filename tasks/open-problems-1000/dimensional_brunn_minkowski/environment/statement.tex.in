@@ -1,0 +1,22 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[The dimensional Brunn--Minkowski conjecture]
+For every even log-concave $\mu$ on $\mathbb{R}^n$, symmetric convex $K, L$, and $\lambda \in [0, 1]$,
+\begin{align*}
+  \mu \left( \lambda K + (1 - \lambda) L \right)^{1/n} \ \ge \ \lambda \, \mu (K)^{1/n} + (1 - \lambda) \, \mu (L)^{1/n}.
+\end{align*}
+\end{conjecture}
+
+\end{document}

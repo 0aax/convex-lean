@@ -1,0 +1,40 @@
+{
+  "job_name": "resume-dimensional_brunn_minkowski__4YAYDPE",
+  "n_concurrent_trials": 1,
+  "n_attempts": 1,
+  "environment": {
+    "delete": false,
+    "kwargs": {
+      "auto_delete_interval_mins": 5760,
+      "resume_sandbox_id": "<daytona-sandbox-id>"
+    },
+    "import_path": "resume_daytona:ResumeDaytonaEnvironment"
+  },
+  "agents": [
+    {
+      "import_path": "claude_code_thinking:GatedClaudeCodeThinking",
+      "model_name": "anthropic/claude-fable-5-1",
+      "env": {
+        "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": "0"
+      },
+      "load_trajectory": "jobs/open-problems-final/1000/dimensional_brunn_minkowski__4YAYDPE/agent/sessions/projects/-app-open-eval/5c96004f-8f52-442b-a6f8-cefa74d77135.jsonl",
+      "kwargs": {
+        "max_budget_usd": "95.04",
+        "gate_cap_usd": "95.04",
+        "gate_time_limit_sec": "262062",
+        "gate_idle_cycles": "25",
+        "gate_continue_message": "You have permission to keep working on this problem, and there is no need to conserve the remaining budget.",
+        "prompt_template_path": "configs/open-problems/resume/dimensional_brunn_minkowski__4YAYDPE/prompt_template.md",
+        "thinking_display": "summarized",
+        "reasoning_effort": "max",
+        "version": "2.1.257"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "path": "tasks/open-problems-1000/dimensional_brunn_minkowski"
+    }
+  ],
+  "environment_build_timeout_multiplier": 4.0
+}

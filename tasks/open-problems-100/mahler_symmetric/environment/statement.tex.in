@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Mahler's conjecture, symmetric case]
+For every convex body $K \subset \mathbb{R}^n$ with $K = -K$,
+\begin{align*}
+  \operatorname{vol} (K) \cdot \operatorname{vol} \left( K^\circ \right) \ \ge \ \frac{4^n}{n!},
+\end{align*}
+with equality for the cube, the cross-polytope, and every Hanner polytope.
+\end{conjecture}
+
+\end{document}

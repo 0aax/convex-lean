@@ -1,0 +1,135 @@
+[
+  {
+    "question_name": "Affine plank",
+    "budget": 100,
+    "quotes": [
+      "The numerical search across m=3 to 6 found no counterexamples, with minimum sums always exactly 1, which supports the conjecture holding for small cases. I've already spent about $32 of my $100 budget, with that numerical subagent costing $25, so I need to be more careful going forward given the conjecture remains open even for small cases.\n\nGiven a full proof would require solving a genuine open problem, my odds of success are slim, but since I'm told to keep pushing, I want to spend the remaining $68 focusing on the mathematics itself—particularly exploring whether the cube formulation (C_m) admits a proof by extending Ball's approach. I'm working through how the non-symmetric case might reduce to Ball's ℓ_1 theorem, examining the structure with points P_k, Q_k, slabs, and the constraint that x avoid the open intervals while lying in the convex hull, and recalling Ball's general result for matrices with unit diagonal that guarantees a vector λ satisfying the weighted distance bounds."
+    ]
+  },
+  {
+    "question_name": "Borsuk",
+    "budget": 100,
+    "quotes": [
+      "Given the $70 budget left, I should think strategically about where to focus: the G2(4) two-distance structure at dim 62 seems tapped out via flats, shadows, affine flexes, and fractional covers. So I should pivot toward searching other two-distance vector systems in ℝ^63, especially graphs G with large least-eigenvalue multiplicity structured as A = -cI + YᵀY, where Y's columns have pairwise inner products in {0,1} — looking for natural constructions beyond root systems."
+    ]
+  },
+  {
+    "question_name": "Chebyshev sets",
+    "budget": 100,
+    "quotes": [
+      "The Bendit paper just reformulates the problem via stereographic projection onto the sphere of the direct sum space rather than actually solving it, so reading further won't yield a proof. With only $64.65 left and the context already fairly large, I need to be economical with remaining turns.\n\nI should first save my new results — the polyhedral impossibility argument and the dual formulation — to notes with a quick write. Then I need to decide on a final strategy: a genuine proof of either direction seems out of reach, but I should keep attempting the most promising idea with my remaining ~20 turns before writing up. A counterexample construction for the negative direction would require an intricate infinite construction I likely can't verify or formalize, so the positive direction is more tractable — building on the structural facts I've found, like the bad set being contained in the boundary and forward-invariant under the ascent flow."
+    ]
+  },
+  {
+    "question_name": "Danzer",
+    "budget": 100,
+    "quotes": [
+      "Formalizing either direction in Lean would be a massive undertaking—POS needs heavy convex geometry, NEG needs an explicit Danzer construction with a formal proof—so neither is realistic within budget, but I want to push the math as far as I can and record genuine findings. I'm focusing on POS: given a set with bounded density in the plane, I want to show every direction/slab combination has bounded projection gaps, and I'm considering the visibility structure around a single point to build toward an empty rectangle of guaranteed area."
+    ]
+  },
+  {
+    "question_name": "Dimensional Brunn–Minkowski",
+    "budget": 100,
+    "quotes": [
+      "Even if a resolution appeared recently by someone like Rotem, Cordero-Erausquin, or Eskenazis, formalizing it in Lean would be far too hard given my budget. Realistically a full proof is out of reach, so I should consider whether the conjecture could instead be false, testing degenerate examples like measures based on the sup-norm or general symmetric convex bodies to look for a counterexample.\n\n...\n\nGiven the difficulty of pinning down the exact known results, I decide to shift strategy toward testing extreme cases directly — like measures with very degenerate, non-smooth densities, or pairing a thin segment against a fat body — to probe whether a counterexample might exist rather than relying on uncertain memory of the literature."
+    ]
+  },
+  {
+    "question_name": "Generalized Lax",
+    "budget": 100,
+    "quotes": [
+      "With about $81 left, neither direction can realistically produce a full proof, let alone a Lean formalization, so I'm weighing what's actually worth attempting with the remaining budget given the near-zero odds of success: pushing further on the K3/quartic case won't help since even a full mathematical resolution can't be formalized in time, and I've already exhausted the search for a cheap formal trick.\n\nSo I'm going back to basics on the elementary route for NEG—trying to find some property of spectrahedral cones that hyperbolicity cones might fail, since that's the only avenue with any chance of being formalizable. Running through the list again: closedness, semialgebraicity, facial exposedness, amenability, rigid convexity—all check out for hyperbolicity cones, so I'm hunting for something I haven't yet considered."
+    ]
+  },
+  {
+    "question_name": "Hadwiger covering",
+    "budget": 100,
+    "quotes": [
+      "Given the $100 budget, even if a suitable counterexample polytope exists, formalizing it seems like many hours of work, so I should first confirm whether a nice candidate even exists before committing—and I suspect it almost certainly doesn't. I'm also double-checking that Hadwiger's covering problem really is open in 3D, which I believe it is.\n\nMy plan is to first do a cheap sanity check of the Lean statement, then write a Python tool to compute illumination numbers for 3-polytopes and explore structured families that might satisfy the derived constraints—needing at least 9 vertices with small solid angles and a co-illuminability hypergraph whose covering number is at least 9, while ruling out perturbations of the cube or bodies near any 8-illuminable body."
+    ]
+  },
+  {
+    "question_name": "Kalai 3^d",
+    "budget": 100,
+    "quotes": [
+      "Given my limited dollar budget, I think the best path is building face-lattice enumeration infrastructure for cs polytopes myself, then testing a candidate lemma like Claim' against random cs polytopes and known tight examples (Hansen polytopes of split graphs) in dimensions 3-5, hunting for counterexamples before committing to a proof strategy."
+    ]
+  },
+  {
+    "question_name": "Kneser–Poulsen",
+    "budget": 100,
+    "quotes": [
+      "Given this doesn't lead anywhere obviously useful, I decide to step back and think about how to allocate the remaining budget: either run a more intensive adversarial numerical search in R^3 with better optimization and structured initializations (~$15-20), attempt a noisier search in higher dimensions, or pursue a more careful analytic approach.\n\nI'm also weighing whether to spawn a subagent to brainstorm a fresh POS idea (~$10, low expected value but cheap insurance), versus running a structured search over \"flaps-like\" families — rigid cores with flaps attached to facets, generalizing the Belk-Connelly construction, since these are the known examples of non-continuous contraction. I want to check whether partial flap configurations (flaps on only some faces of the core tetrahedron) remain non-continuous under the rigidity argument.\n\n...\n\nMulti-foldings across separate planes seem like exactly the discrete contractions that slip past known proofs, since a single folding is provable but simultaneous ones across different planes aren't. I want to make this the main remaining effort — write the search myself using the existing gradient routine, run it, and see what turns up, while also thinking analytically about whether Kirszbraun-type results provably hold for two simultaneous foldings across separate planes."
+    ]
+  },
+  {
+    "question_name": "Log Brunn–Minkowski",
+    "budget": 100,
+    "quotes": [
+      "Alternatively, I could try to work out an R³ analog of the planar Bonnesen inequality myself, extending Minkowski's inequality using relative in/circumradii the way Bonnesen strengthens the isoperimetric inequality in the plane.\n\nGiven the remaining budget, the most productive path is probably fetching the exact definitions for Xi's conjecture and numerically testing the proposed inequalities on random symmetric polytope pairs in R³ — reporting either consistency or a counterexample, though this mainly matters for the broader research community rather than our specific problem.\n\n...\n\nOne promising cheap option: fetch Xi's exact definitions of the generalized radii and numerically test his R³ conjecture on random symmetric polytope pairs, since the paper is only 11 days old and nobody has checked it yet — a failure would be a genuinely useful finding, and confirmation is at least mild evidence, all for the cost of one fetch plus a couple coding turns. I'll go ahead with that, so I need to pin down the exact definitions from the paper: the generalized radii t₁ and t₂, how the bodies M₀ and M₁ are constructed, and the precise form of the two conjectured inequalities."
+    ]
+  },
+  {
+    "question_name": "Mahler, general",
+    "budget": 100,
+    "quotes": [
+      "But realistically, formalizing the complete Chen–Li–Xi–Xu machinery plus the Meyer–Reisner shadow system theorem, compactness arguments, and Santaló point theory in Lean within my remaining ~$95 budget is essentially out of reach — the Meyer–Reisner theorem alone requires deep convex geometry infrastructure that Mathlib doesn't have.\n\nSo neither a positive proof nor a negative counterexample is achievable here: POS demands formalizing a proof built on decades of theory (even the n=3 case is a 30-page paper), while NEG would require disproving a widely-believed conjecture. Given that, the honest path forward is to pursue the mathematics genuinely, make what real progress I can numerically or theoretically, and document it honestly rather than fake a complete formalization.\n\nSince I'm told not to stop early and to keep working until the budget is used, I should spend that time productively — digging into the (★★) question, checking whether the conjecture might actually fail in high dimensions where the evidence is weaker than in low dimensions, and recording findings as I go."
+    ]
+  },
+  {
+    "question_name": "Mahler, symmetric",
+    "budget": 100,
+    "quotes": [
+      "But since a full Lean proof is out of reach in this budget, I should focus my effort on the mathematics itself — starting with numerical exploration of the 4D case while simultaneously thinking through what a general proof might look like. Let me also revisit (C'_n) and equipartitions: in 3D, the FHMRZ equipartition gives equal section volumes across the basis, and a cone argument yields (C'_3), but (C'_n) actually requires a weaker condition on the sum of sections for every point in K."
+    ]
+  },
+  {
+    "question_name": "Order-six DJL",
+    "budget": 100,
+    "quotes": [
+      "Given the constraint against declaring it open and a $92 budget, I weigh my options: digging further into SM's case analysis or Holden's argument for a possible gap that could yield an actual counterexample (low probability, maybe 2%, but if found, a NEG proof of 500-1500 lines becomes feasible), versus attempting to formalize the POS proof despite it being infeasible to complete, where only partial credit is realistic.\n\nSince testing SM's theorem is the only path with real mathematical value here, I want to check its claim efficiently — that for every exceptional extremal M in COP_6 and A in CP_6 orthogonal to M, the completely positive rank stays bounded by 9, via the face of CP_6 defined by M's zero set, and whether Hildebrand's Table 1 bound of 8 minimal supports actually holds up."
+    ]
+  },
+  {
+    "question_name": "Petty projection",
+    "budget": 100,
+    "quotes": [
+      "Given my budget, I'm weighing what to try next: attempting the 3D case S_3 could give a new proof of the already-known Petty inequality in ℝ³, but it doesn't look meaningfully easier than the general problem, so I'm also considering hunting for counterexamples instead.\n\nI could search more aggressively for counterexamples by optimizing over solids of revolution — parametrizing concave profiles with splines or piecewise-linear knots, and numerically minimizing the ratio Ψ/P(B) at dimensions 3, 4, and 10. If the minimum lands at the ball, that's strong support for the conjecture; if it dips below 1, this whole approach is dead even though Petty itself might still hold. This is a well-defined but expensive numerical experiment — thousands of quadrature evaluations per profile, with an optimizer needing on the order of 1000 evaluations, roughly an hour of compute — but feasible within my constraints.\n\nSince S_d is a stronger claim than Petty, adversarial optimization is the most informative next test; surviving that would be decent evidence. I should also verify on non-revolution bodies — random polytopes with many vertices approximating smooth shapes, and ellipsoids as a sanity check, since affine invariance means Ψ should be exactly 1 there given that both the expectation over V_K and R_K transform correctly under GL."
+    ]
+  },
+  {
+    "question_name": "Polynomial Hirsch",
+    "budget": 100,
+    "quotes": [
+      "The pivoting agent's analysis via Theorem 10 shows the worst-case escape at level k in dimension 2k equals D(k)−1, meaning the amortization approach reduces to PHC in half the dimension — so the sub-problem already contains the full problem. That settles my amortization follow-up negatively in the worst-case sense, leaving the deeper question about stuck vertices still open.\n\nWith $42 remaining and three agent runs plus my own analysis all converging on this self-similar barrier, I need to decide whether pursuing Q1 further is worthwhile — the agent's response that \"no amortisation is possible without bounding simplex paths\" feels circular. I'm considering whether a genuinely fresh angle exists, like a topological approach exploiting the boundary being a sphere (à la Kalai's PHC6, using Alexander duality or homology on the layer filtration), though known superlinear examples like Criado–Santos's polytope-violating spheres suggest this route may only yield weak bounds too.\n\nActually this abstraction is interesting: PHC for simplicial spheres remains open with no known superlinear lower bounds for pseudomanifolds, and the NEG agent's Larman-type 3^{d-2}n bound for normal pseudomanifolds shows this framework preserves all known upper bounds while lacking counterexamples — so a topological approach has some theoretical promise even though nobody's cracked it in fifteen years. Given the budget, a fourth agent run on this line would cost roughly $15-20 and likely produce another dead-end report, but since I've only used 58% and the instructions favor a genuine attempt over stopping early, I'll commit to one more bounded pass on the pseudomanifold/topological angle as the last remaining viable direction.\n\n...\n\nI've confirmed three independent lines all collapse into the same self-similar recursion D(d) ≲ d·D(d/2). Now I'll try two final complementary attacks on simplicial spheres/normal pseudomanifolds—one seeking a polynomial bound via topology, the other trying to construct a superpolynomial sphere family."
+    ]
+  },
+  {
+    "question_name": "Reflexive fixed point",
+    "budget": 100,
+    "quotes": [
+      "On the Lean side, formalizing a full positive proof (Zorn's lemma, Goebel–Karlovitz, ultrapowers) would run to thousands of lines — infeasible within budget even with a known proof. A concrete counterexample in a renormed Hilbert space seems more tractable, maybe 500-1500 lines covering reflexivity, the set, the map, and nonexpansiveness, though still heavy. Either way, I need to nail down the mathematics first, starting with whether a counterexample exists in a renormed ℓ² space, since superreflexivity and FPP there is itself an open question.\n\nThe literature (Domínguez Benavides, Kirk, Lin) leans toward believing the conjecture is true for superreflexive spaces, which pushes me back toward exploring what a positive proof would actually require — maybe via Cesàro averaging of iterates of the nonexpansive map, drawing on Baillon's approach in Hilbert space."
+    ]
+  },
+  {
+    "question_name": "Reinhardt",
+    "budget": 100,
+    "quotes": [
+      "Given a limited budget, I should weigh what's most valuable to a mathematician reviewing this: the reduction chain and numerical evidence I've already built are solid, but a formal proof of even a modest universal lower bound on packing density — or the more ambitious Mahler-type bound via inscribed affine-regular hexagons — would be a genuinely substantial addition, if I can afford the cost.\n\nA ≥1/2 bound seems achievable within budget, while the stronger Mahler or Tammela bounds are too expensive. I'm also reconsidering whether formally verifying the smoothed octagon's exact constant is worth it, but that's too heavy too. My plan is to wait on the bang-bang agent, launch a polygon re-run subagent, and start formalizing the 1/2 bound, working out how to represent a degenerate parallelogram case within the hexagonal core framework."
+    ]
+  },
+  {
+    "question_name": "Shannon capacity C7",
+    "budget": 100,
+    "quotes": [
+      "Given the remaining budget and the instruction to keep pushing, I'll try one more cheap idea: a Haemers-type rank bound but using a generalized notion of rank over a ring like ℤ/6ℤ, defined as the minimal number of rank-1 outer-product summands, since ordinary rank isn't well-defined outside a field.\n\nThis works because tensor products still behave sub-multiplicatively under this decomposition length, and reducing modulo a maximal ideal shows the identity matrix still needs full length. So for an independent set S, the corresponding principal submatrix (diagonal with unit entries) forces the decomposition length to be at least |S|, giving a genuine bound on α(G) analogous to the classical Haemers bound.\n\nActually no gain there, since the zero pattern and unit diagonal constraints force valid Haemers matrices mod each prime anyway, and my subspace bound would apply to each reduction separately — dead end. Non-commutative division rings don't help either since the subspace argument works the same way there."
+    ]
+  },
+  {
+    "question_name": "Sharp slicing",
+    "budget": 100,
+    "quotes": [
+      "Practically, I'm weighing how to spend remaining effort: running higher-dimensional numerical searches is cheap but unlikely to find counterexamples since I suspect the conjecture is true and local search just converges toward cube-like optima; alternatively, I could try proving the unconditional sub-case, which would be a genuine partial result but wouldn't satisfy a binary grading criterion.\n\n...\n\nThis unconditional case seems genuinely hard, and with limited budget left I need to be strategic — probably better to run background numerical searches for potential counterexamples in higher dimensions (cheap and low-probability) while thinking theoretically about what a maximizing polytope structure would need to look like."
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+name: build-base-image
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Image tag: <lean/mathlib version>-r<image revision>. Bump only the -r suffix for image changes that do not change the Lean version. Must not already exist unless overwrite=true."
+        required: true
+        default: v4.28.0-r3
+      base_dir:
+        description: "Directory under docker/ holding the image's Dockerfile, lakefile.toml and lean-toolchain (lean-mathlib-base = Lean v4.28, lean-mathlib-base-v4.21 = Lean v4.21)."
+        required: true
+        default: lean-mathlib-base
+      overwrite:
+        description: "Allow pushing over an existing tag (breaks reproducibility)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  packages: write
+
+env:
+  IMAGE: ghcr.io/0aax/open-eval-base
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc \
+            /opt/hostedtoolcache/CodeQL /usr/local/share/boost
+          sudo docker image prune -af
+          df -h /
+
+      - uses: actions/checkout@v4
+
+      - name: Log in to ghcr
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GHCR_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Refuse to clobber an existing tag
+        if: ${{ !inputs.overwrite }}
+        run: |
+          if docker manifest inspect "$IMAGE:${{ inputs.tag }}" >/dev/null 2>&1; then
+            echo "::error::$IMAGE:${{ inputs.tag }} already exists."
+            echo "Task Dockerfiles pin this image by tag, so overwriting it changes"
+            echo "the environment of everything already referencing it. Publish under"
+            echo "a new tag, or re-run with overwrite=true if that is genuinely intended."
+            exit 1
+          fi
+          echo "$IMAGE:${{ inputs.tag }} is free."
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: docker/${{ inputs.base_dir }}/Dockerfile
+          push: true
+          tags: ${{ env.IMAGE }}:${{ inputs.tag }}
+
+      - name: Smoke test
+        run: |
+          docker run --rm "$IMAGE:${{ inputs.tag }}" bash -eux -c '
+            test -f /app/open-eval/lakefile.toml
+            test -f /app/open-eval/lean-toolchain
+            test -f /app/open-eval/lake-manifest.json
+            test -f /app/open-eval/LeanWorkspace.lean
+            test -d /app/open-eval/LeanWorkspace
+
+            test ! -e /app/lakefile.toml
+            test ! -e /app/lakefile.lean
+
+            test -d /app/scratch
+
+            grep -q "defaultTargets" /app/open-eval/lakefile.toml
+            grep -q "LeanWorkspace" /app/open-eval/lakefile.toml
+
+            cd /app/open-eval
+
+            test -d .lake/packages/mathlib/.lake/build/lib
+            find .lake/packages/mathlib/.lake/build -name "*.olean" | head -1 | grep -q olean
+
+            printf "import Mathlib\ntheorem t : True := trivial\n" > LeanWorkspace/Smoke.lean
+            printf "import LeanWorkspace.Smoke\n" >> LeanWorkspace.lean
+            lake build LeanWorkspace
+            lake env lean -DrelaxedAutoImplicit=false -DmaxSynthPendingDepth=3 \
+              LeanWorkspace/Smoke.lean
+
+            echo IMAGE-OK
+          '
+
+      - name: Comparator smoke test
+        run: |
+          docker run --rm \
+            -v "$PWD/docker/${{ inputs.base_dir }}/comparator-smoke.sh:/smoke.sh:ro" \
+            "$IMAGE:${{ inputs.tag }}" bash /smoke.sh

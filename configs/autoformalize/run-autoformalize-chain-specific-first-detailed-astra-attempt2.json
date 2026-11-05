@@ -1,0 +1,34 @@
+{
+    "job_name": "autoformalize-chain-specific-first-detailed-astra-attempt2",
+    "n_concurrent_trials": 15,
+    "environment_build_timeout_multiplier": 4.0,
+    "n_attempts": 1,
+    "environment": {
+        "type": "daytona",
+        "delete": true,
+        "kwargs": {
+            "auto_delete_interval_mins": 60
+        }
+    },
+    "agents": [
+        {
+            "name": "codex",
+            "model_name": "openai/gpt-6-astra",
+            "kwargs": {
+                "reasoning_effort": "max",
+                "reasoning_summary": "detailed"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/autoformalize-chain-specific-first-detailed/BC_chap_20_25__astra__2"
+        },
+        {
+            "path": "tasks/autoformalize-chain-specific-first-detailed/BC_chap_9_20__astra__2"
+        },
+        {
+            "path": "tasks/autoformalize-chain-specific-first-detailed/RW_chap_3_26__astra__2"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+[task]
+name = "autoformalize-chain-specific-first/BC_chap_9_20__astra__1"
+description = "Formalize Theorem 9.20 (Bauschke & Combettes, Convex Analysis and Monotone Operator Theory in Hilbert Spaces) as a Lean 4 statement: definitions plus a sorried theorem."
+keywords = ["lean4", "mathlib", "autoformalization", "convex-analysis", "BC"]
+
+[metadata]
+category = "autoformalization"
+difficulty = "statement-only"
+tags = ["lean4", "mathlib-4.28", "autoformalize", "BC"]
+book = "BC"
+result = "Theorem 9.20"
+source = "Bauschke & Combettes, *Convex Analysis and Monotone Operator Theory in Hilbert Spaces*, Chapter 9, Theorem 9.20 (every f ∈ Γ₀(H) has a continuous affine minorant)"
+source_file = "convex_analysis_and_monotone_operator_theory_in_hilbert_spaces.pdf"
+source_pdf_page = 175
+# The corpus statement this question is judged against (not shown to the agent).
+reference_statement = "convex-eval-v28/BC_chap_9_20"
+time_budget_sec = 1800.0
+# Grading is by people; the verifier's reward only records whether the file has
+# the required shape (builds, one sorried theorem of the right name).
+human_judged = true
+prior_module = "FCA_chap_B_1_2_1"
+
+[environment]
+cpus = 4
+memory_mb = 8192
+storage_mb = 10240
+force_build = false
+allow_internet = true
+
+[agent]
+# The time budget is enforced here, identically for every agent. Harbor still
+# runs the verifier after an agent timeout, so work on disk is graded.
+timeout_sec = 1800.0
+
+[verifier]
+# One `lake build` of a single statement file plus a textual check.
+timeout_sec = 1800.0
+
+# Collect the Lake package and scratch directory, but not the 77 MB corpus.
+[[artifacts]]
+source = "/app"
+exclude = ["*/.lake/*", "*/.lake", ".lake", "*/.lake/packages/*", "*/.lake/build/*",
+           "*/.git/*", "*/venv/*", "*/.venv/*", "*/__pycache__/*",
+           "*.olean", "*.ilean", "*.trace", "*.hash", "*.pack", "*.idx",
+           "*/corpus/*", "*.pdf"]

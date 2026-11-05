@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[The Kannan--Lov\'asz--Simonovits conjecture]
+There is a universal constant $C$ such that for every $n$, every log-concave probability measure $\mu$ on $\mathbb{R}^n$, and every Borel $A \subseteq \mathbb{R}^n$,
+\begin{align*}
+  \mu^+ (A) \ \ge \ \frac{1}{C \, \left\| \Sigma_\mu \right\|_{\operatorname{op}}^{1/2}} \ \min \left\{ \mu (A), \, 1 - \mu (A) \right\},
+\end{align*}
+where $\Sigma_\mu$ is the covariance and $\mu^+ (A) = \liminf_{\varepsilon \to 0^+} \varepsilon^{-1} \left( \mu (A_\varepsilon) - \mu (A) \right)$ is the Minkowski boundary measure.
+\end{conjecture}
+
+\end{document}

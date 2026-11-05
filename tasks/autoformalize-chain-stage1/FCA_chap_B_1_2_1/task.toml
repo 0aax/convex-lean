@@ -1,0 +1,44 @@
+[task]
+name = "autoformalize-chain-stage1/FCA_chap_B_1_2_1"
+description = "Formalize Proposition B.1.2.1 (Hiriart-Urruty & Lemaréchal, Fundamentals of Convex Analysis) as a Lean 4 statement: definitions plus a sorried theorem."
+keywords = ["lean4", "mathlib", "autoformalization", "convex-analysis", "FCA"]
+
+[metadata]
+category = "autoformalization"
+difficulty = "statement-only"
+tags = ["lean4", "mathlib-4.28", "autoformalize", "FCA"]
+book = "FCA"
+result = "Proposition B.1.2.1"
+source = "Hiriart-Urruty & Lemaréchal, *Fundamentals of Convex Analysis*, Chapter B, Section 1.2, Proposition 1.2.1 (every f ∈ Conv ℝⁿ has an affine minorant; subgradient at relative interior points)"
+source_file = "fundamentals_of_convex_analysis.pdf"
+source_pdf_page = 87
+# The corpus statement this question is judged against (not shown to the agent).
+reference_statement = "convex-eval-v28/FCA_chap_B_1_2_1"
+time_budget_sec = 1800.0
+# Grading is by people; the verifier's reward only records whether the file has
+# the required shape (builds, one sorried theorem of the right name).
+human_judged = true
+
+[environment]
+cpus = 4
+memory_mb = 8192
+storage_mb = 10240
+force_build = false
+allow_internet = true
+
+[agent]
+# The time budget is enforced here, identically for every agent. Harbor still
+# runs the verifier after an agent timeout, so work on disk is graded.
+timeout_sec = 1800.0
+
+[verifier]
+# One `lake build` of a single statement file plus a textual check.
+timeout_sec = 1800.0
+
+# Collect the Lake package and scratch directory, but not the 77 MB corpus.
+[[artifacts]]
+source = "/app"
+exclude = ["*/.lake/*", "*/.lake", ".lake", "*/.lake/packages/*", "*/.lake/build/*",
+           "*/.git/*", "*/venv/*", "*/.venv/*", "*/__pycache__/*",
+           "*.olean", "*.ilean", "*.trace", "*.hash", "*.pack", "*.idx",
+           "*/corpus/*", "*.pdf"]

@@ -1,0 +1,22 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[The polynomial Hirsch conjecture]
+There is a polynomial $q$ such that every $d$-dimensional polytope $P$ with $n$ facets has vertex-edge graph $G(P)$ of combinatorial diameter
+\begin{align*}
+  \operatorname{diam} \, G(P) \ \le \ q(n, d).
+\end{align*}
+\end{conjecture}
+
+\end{document}

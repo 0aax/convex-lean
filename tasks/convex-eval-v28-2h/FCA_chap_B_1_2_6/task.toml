@@ -1,0 +1,36 @@
+[task]
+name = "convex-eval-v28-2h/FCA_chap_B_1_2_6"
+description = "Prove the Lean 4 theorem FCA_chap_B_1_2_6."
+keywords = ["lean4", "mathlib", "formal-proofs", "convex-analysis", "FCA"]
+
+[metadata]
+difficulty = "open"
+category = "formal-theorem-proving"
+tags = ["lean4", "mathlib-4.28", "FCA"]
+book = "FCA"
+source = "Hiriart-Urruty & Lemarechal, Fundamentals of Convex Analysis"
+proved_in_project = false
+time_budget_sec = 7200.0
+
+[environment]
+cpus = 4
+memory_mb = 8192
+storage_mb = 10240
+force_build = false
+allow_internet = true
+
+[agent]
+# The time budget is enforced here. The gated loop's gate_time_limit_sec is set
+# to the same value, but it is only checked between turns, so one long turn
+# could overrun it; this timeout is the hard stop. Harbor still runs the
+# verifier after an agent timeout, so work on disk is graded.
+timeout_sec = 7200.0
+
+[verifier]
+# Rebuilds the agent's modules from scratch, then one comparator pass.
+timeout_sec = 3600.0
+
+[[artifacts]]
+source = "/app"
+exclude = ["*/.lake/*", "*/.git/*", "*/venv/*", "*/.venv/*", "*/__pycache__/*",
+           "*.olean", "*.ilean", "*.trace", "*.hash", "*.pack", "*.idx"]

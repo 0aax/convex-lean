@@ -1,0 +1,35 @@
+[task]
+name = "open-problems-100/mahler_general"
+description = "Prove the Lean 4 theorem mahler_general_conjecture."
+keywords = ["lean4", "mathlib", "formal-proofs", "convex-analysis", "open-problem"]
+
+[metadata]
+problem_number = "010"
+problem_title = "Mahler's conjecture, general position"
+source = "current_list.html"
+difficulty = "open"
+category = "formal-theorem-proving"
+formalization_cost = 2
+tags = ["lean4", "mathlib-4.28", "open-problem"]
+
+[environment]
+cpus = 4
+memory_mb = 8192
+storage_mb = 10240
+force_build = false
+allow_internet = true
+
+[agent]
+timeout_sec = 360000.0
+
+[verifier]
+# Rebuilds the agent's modules from scratch, then both comparator passes.
+# Observed 2-5 min total; worst module rebuild 180s for ~1.1k lines. 4h backstop
+# so a very large $1000-tier proof (or a CPU-contended sandbox) cannot lose a
+# completed trial to VerifierTimeoutError, which harbor never retries.
+timeout_sec = 14400.0
+
+[[artifacts]]
+source = "/app"
+exclude = ["*/.lake/*", "*/.git/*", "*/venv/*", "*/.venv/*", "*/__pycache__/*",
+           "*.olean", "*.ilean", "*.trace", "*.hash", "*.pack", "*.idx"]

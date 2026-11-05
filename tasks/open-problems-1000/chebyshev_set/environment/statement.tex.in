@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{problem}{Problem}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{problem}[Klee's Chebyshev set problem]
+Let $H$ be a real Hilbert space and $C \subseteq H$ nonempty with the property that every point has a \emph{unique} nearest point in $C$:
+\begin{align*}
+  \forall x \in H, \ \exists ! \, c \in C : \ \left\| x - c \right\| = \inf_{y \in C} \left\| x - y \right\|.
+\end{align*}
+Must $C$ be convex?
+\end{problem}
+
+\end{document}

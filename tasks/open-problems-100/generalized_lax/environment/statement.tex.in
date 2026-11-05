@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[The generalized Lax conjecture]
+Let $p \in \mathbb{R}[x_1, \ldots, x_n]$ be homogeneous and hyperbolic with respect to $e$: $p(e) \neq 0$ and $t \mapsto p(x - te)$ has only real roots for every $x$. Its hyperbolicity cone is
+\begin{align*}
+  \Lambda_+ (p, e) = \left\{ x : \ \text{all roots of } t \mapsto p(x - te) \ \text{are} \ \ge 0 \right\}.
+\end{align*}
+Every such cone is \emph{spectrahedral} --- there are symmetric $A_1, \ldots, A_n \in \mathcal{S}^m$ with
+\begin{align*}
+  \Lambda_+ (p, e) = \left\{ x \in \mathbb{R}^n : \ \sum_i x_i A_i \succeq 0 \right\}.
+\end{align*}
+\end{conjecture}
+
+\end{document}

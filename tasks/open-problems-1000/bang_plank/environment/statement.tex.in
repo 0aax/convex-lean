@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Bang's affine plank problem]
+A \emph{plank} in $\mathbb{R}^d$ is a closed slab between two parallel hyperplanes,
+\begin{align*}
+  P = \left\{ x \in \mathbb{R}^d : a \le \langle u, x \rangle \le b \right\}, \qquad \| u \| = 1, \ a \le b,
+\end{align*}
+and its width is $w(P) = b - a$. Let $K \subseteq \mathbb{R}^d$ be a convex body (compact, convex, with non-empty interior) and let $h_K(u) = \sup_{x \in K} \langle u, x \rangle$ be its support function. The width of $K$ in direction $u$ is
+\begin{align*}
+  w_K(u) = h_K(u) + h_K(-u),
+\end{align*}
+the distance between the two supporting hyperplanes of $K$ orthogonal to $u$, and the \emph{relative width} of a plank $P$ in direction $u$ with respect to $K$ is the ratio $w(P) / w_K(u)$. If $K$ is covered by finitely many planks $P_1, \dots, P_m$ with directions $u_1, \dots, u_m$, then their relative widths sum to at least one:
+\begin{align*}
+  K \subseteq \bigcup_{i=1}^{m} P_i \quad \Longrightarrow \quad \sum_{i=1}^{m} \frac{w(P_i)}{w_K(u_i)} \ge 1.
+\end{align*}
+\end{conjecture}
+
+\end{document}

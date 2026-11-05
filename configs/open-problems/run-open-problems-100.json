@@ -1,0 +1,95 @@
+{
+  "job_name": "open-problems-100",
+  "n_concurrent_trials": 5,
+  "environment_build_timeout_multiplier": 4.0,
+  "n_attempts": 1,
+  "environment": {
+    "type": "daytona",
+    "delete": false,
+    "kwargs": {
+      "auto_delete_interval_mins": 5760
+    }
+  },
+  "agents": [
+    {
+      "import_path": "claude_code_thinking:GatedClaudeCodeThinking",
+      "model_name": "anthropic/claude-fable-5-1",
+      "env": {
+        "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": "0"
+      },
+      "kwargs": {
+        "max_budget_usd": "100",
+        "gate_cap_usd": "100",
+        "gate_time_limit_sec": "345600",
+        "gate_idle_cycles": "25",
+        "gate_continue_message": "You have permission to keep working on this problem, and there is no need to conserve the remaining budget.",
+        "prompt_template_path": "configs/open-problems/prompt_template.md",
+        "thinking_display": "summarized",
+        "reasoning_effort": "max",
+        "version": "2.1.257"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "path": "tasks/open-problems-100/bang_plank"
+    },
+    {
+      "path": "tasks/open-problems-100/borsuk"
+    },
+    {
+      "path": "tasks/open-problems-100/chebyshev_set"
+    },
+    {
+      "path": "tasks/open-problems-100/danzer"
+    },
+    {
+      "path": "tasks/open-problems-100/dimensional_brunn_minkowski"
+    },
+    {
+      "path": "tasks/open-problems-100/generalized_lax"
+    },
+    {
+      "path": "tasks/open-problems-100/hadwiger_covering"
+    },
+    {
+      "path": "tasks/open-problems-100/kalai_3d"
+    },
+    {
+      "path": "tasks/open-problems-100/kls_conjecture"
+    },
+    {
+      "path": "tasks/open-problems-100/kneser_poulsen"
+    },
+    {
+      "path": "tasks/open-problems-100/log_brunn_minkowski"
+    },
+    {
+      "path": "tasks/open-problems-100/mahler_general"
+    },
+    {
+      "path": "tasks/open-problems-100/mahler_symmetric"
+    },
+    {
+      "path": "tasks/open-problems-100/order_six_djl"
+    },
+    {
+      "path": "tasks/open-problems-100/petty_projection"
+    },
+    {
+      "path": "tasks/open-problems-100/polynomial_hirsch"
+    },
+    {
+      "path": "tasks/open-problems-100/reflexive_fixed_point"
+    },
+    {
+      "path": "tasks/open-problems-100/reinhardt"
+    },
+    {
+      "path": "tasks/open-problems-100/shannon_capacity_c7"
+    },
+    {
+      "path": "tasks/open-problems-100/sharp_slicing_isotropic_constant"
+    }
+  ]
+}

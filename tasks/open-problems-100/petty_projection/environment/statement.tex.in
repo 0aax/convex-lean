@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Petty's projection conjecture]
+The \emph{projection body} $\Pi K$ of a convex body $K \subset \mathbb{R}^n$ is the convex body whose support function is the shadow area of $K$:
+\begin{align*}
+  h_{\Pi K} (u) \ = \ \operatorname{vol}_{n - 1} \left( K \, | \, u^\perp \right), \qquad u \in \mathbb{S}^{n - 1},
+\end{align*}
+where $K \, | \, u^\perp$ is the orthogonal projection of $K$ onto the hyperplane $u^\perp$. Petty conjectured that for $n \ge 3$ the affine-invariant functional
+\begin{align*}
+  F(K) \ = \ \operatorname{vol} (\Pi K) \cdot \operatorname{vol} (K)^{1 - n}
+\end{align*}
+is minimised over all convex bodies if and only if $K$ is an ellipsoid.
+\end{conjecture}
+
+\end{document}

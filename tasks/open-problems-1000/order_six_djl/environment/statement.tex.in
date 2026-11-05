@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[The order-six Drew--Johnson--Loewy conjecture]
+A matrix $A \in \mathbb{R}^{6 \times 6}$ is \emph{completely positive} if it has a nonnegative Gram factorisation:
+\begin{align*}
+  \operatorname{CP} (A) \ :\Longleftrightarrow \ \exists \, r \in \mathbb{N}, \ \exists \, B \in \mathbb{R}^{6 \times r}, \quad B_{ij} \ge 0 \quad \text{and} \quad A = B B^{\mathsf{T}}.
+\end{align*}
+Every completely positive $6 \times 6$ matrix has a nonnegative Gram representation with at most nine vectors:
+\begin{align*}
+  \forall \, A \in \mathbb{R}^{6 \times 6}, \quad \operatorname{CP} (A) \ \Longrightarrow \ \exists \, C \in \mathbb{R}_{\ge 0}^{6 \times 9}, \quad A = C C^{\mathsf{T}}.
+\end{align*}
+Allowing exactly nine columns is equivalent to allowing at most nine, since unused columns may be zero.
+\end{conjecture}
+
+\end{document}

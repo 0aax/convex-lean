@@ -1,0 +1,23 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Mahler's conjecture, general position]
+For every convex body $K \subset \mathbb{R}^n$,
+\begin{align*}
+  \min_{z \in \operatorname{int} K} \ \operatorname{vol} (K) \cdot \operatorname{vol} \left( (K - z)^\circ \right) \ \ge \ \frac{(n + 1)^{n + 1}}{(n!)^2},
+\end{align*}
+with equality exactly for simplices.
+\end{conjecture}
+
+\end{document}

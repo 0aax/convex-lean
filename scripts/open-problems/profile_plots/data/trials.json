@@ -1,0 +1,826 @@
+[
+  {
+    "trial": "bang_plank__pxvLbpH",
+    "problem": "bang_plank",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.9665593275,
+    "phases": [
+      {
+        "trial": "bang_plank__pxvLbpH",
+        "start": "2026-09-24T04:11:59.765421Z",
+        "end": "2026-09-24T08:10:00.769104Z",
+        "observed_end": "2026-09-24T08:09:59.379000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 465,
+      "Lean": 0,
+      "Code": 1953
+    }
+  },
+  {
+    "trial": "borsuk__xJyTsYG",
+    "problem": "borsuk",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.8238674725,
+    "phases": [
+      {
+        "trial": "borsuk__xJyTsYG",
+        "start": "2026-09-23T17:20:31.251099Z",
+        "end": "2026-09-23T21:10:19.105759Z",
+        "observed_end": "2026-09-23T21:09:57.174000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 60,
+      "Lean": 0,
+      "Code": 1200
+    }
+  },
+  {
+    "trial": "chebyshev_set__Vt7uDt4",
+    "problem": "chebyshev_set",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 2.4010742619444443,
+    "phases": [
+      {
+        "trial": "chebyshev_set__Vt7uDt4",
+        "start": "2026-09-19T04:45:29.016657Z",
+        "end": "2026-09-19T07:09:33.807758Z",
+        "observed_end": "2026-09-19T07:09:32.884000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 233,
+      "Lean": 9,
+      "Code": 39
+    }
+  },
+  {
+    "trial": "danzer__M2ZkeC9",
+    "problem": "danzer",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.132738126388889,
+    "phases": [
+      {
+        "trial": "danzer__M2ZkeC9",
+        "start": "2026-09-19T04:45:29.754745Z",
+        "end": "2026-09-19T07:53:29.301198Z",
+        "observed_end": "2026-09-19T07:53:27.612000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 191,
+      "Lean": 275,
+      "Code": 319
+    }
+  },
+  {
+    "trial": "dimensional_brunn_minkowski__vEj4fEA",
+    "problem": "dimensional_brunn_minkowski",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 4.054094408055556,
+    "phases": [
+      {
+        "trial": "dimensional_brunn_minkowski__vEj4fEA",
+        "start": "2026-09-19T04:45:46.067131Z",
+        "end": "2026-09-19T08:49:02.718469Z",
+        "observed_end": "2026-09-19T08:49:00.807000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 741,
+      "Lean": 12,
+      "Code": 2037
+    }
+  },
+  {
+    "trial": "generalized_lax__BTvWSxj",
+    "problem": "generalized_lax",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 4.18195663,
+    "phases": [
+      {
+        "trial": "generalized_lax__BTvWSxj",
+        "start": "2026-09-19T04:45:53.488132Z",
+        "end": "2026-09-19T08:56:49.962987Z",
+        "observed_end": "2026-09-19T08:56:48.532000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 446,
+      "Lean": 0,
+      "Code": 676
+    }
+  },
+  {
+    "trial": "hadwiger_covering__b2R8Syw",
+    "problem": "hadwiger_covering",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 4.122383606666666,
+    "phases": [
+      {
+        "trial": "hadwiger_covering__b2R8Syw",
+        "start": "2026-09-19T06:32:06.623016Z",
+        "end": "2026-09-19T10:39:29.007929Z",
+        "observed_end": "2026-09-19T10:39:27.204000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 59,
+      "Lean": 7,
+      "Code": 1145
+    }
+  },
+  {
+    "trial": "kalai_3d__j7rWAje",
+    "problem": "kalai_3d",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.2024964441666666,
+    "phases": [
+      {
+        "trial": "kalai_3d__j7rWAje",
+        "start": "2026-09-19T07:14:23.955801Z",
+        "end": "2026-09-19T10:26:34.618720Z",
+        "observed_end": "2026-09-19T10:26:32.943000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 878,
+      "Lean": 15,
+      "Code": 4097
+    }
+  },
+  {
+    "trial": "kls_conjecture__8zmJ3gA",
+    "problem": "kls_conjecture",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 1.9820480969444445,
+    "phases": [
+      {
+        "trial": "kls_conjecture__8zmJ3gA",
+        "start": "2026-09-19T08:00:16.215851Z",
+        "end": "2026-09-19T09:59:13.330642Z",
+        "observed_end": "2026-09-19T09:59:11.589000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 1165,
+      "Lean": 237,
+      "Code": 1034
+    }
+  },
+  {
+    "trial": "kneser_poulsen__CkqeQjo",
+    "problem": "kneser_poulsen",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 4.070974743055555,
+    "phases": [
+      {
+        "trial": "kneser_poulsen__CkqeQjo",
+        "start": "2026-09-24T04:10:56.466925Z",
+        "end": "2026-09-24T08:15:14.580864Z",
+        "observed_end": "2026-09-24T08:15:11.976000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 722,
+      "Lean": 19,
+      "Code": 2159
+    }
+  },
+  {
+    "trial": "log_brunn_minkowski__hyRRGKP",
+    "problem": "log_brunn_minkowski",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 6.2422196394444445,
+    "phases": [
+      {
+        "trial": "log_brunn_minkowski__hyRRGKP",
+        "start": "2026-09-19T08:53:56.916298Z",
+        "end": "2026-09-19T15:08:30.479181Z",
+        "observed_end": "2026-09-19T15:08:28.907000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 390,
+      "Lean": 22,
+      "Code": 2627
+    }
+  },
+  {
+    "trial": "mahler_general__RJiVRMa",
+    "problem": "mahler_general",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 2.9558845261111113,
+    "phases": [
+      {
+        "trial": "mahler_general__RJiVRMa",
+        "start": "2026-09-19T09:02:33.369706Z",
+        "end": "2026-09-19T12:00:01.918220Z",
+        "observed_end": "2026-09-19T11:59:54.554000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 283,
+      "Lean": 39,
+      "Code": 1622
+    }
+  },
+  {
+    "trial": "mahler_symmetric__GPArakf",
+    "problem": "mahler_symmetric",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.402219818611111,
+    "phases": [
+      {
+        "trial": "mahler_symmetric__GPArakf",
+        "start": "2026-09-19T10:06:44.128653Z",
+        "end": "2026-09-19T13:30:53.695988Z",
+        "observed_end": "2026-09-19T13:30:52.120000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 575,
+      "Lean": 0,
+      "Code": 923
+    }
+  },
+  {
+    "trial": "order_six_djl__t4ySqXW",
+    "problem": "order_six_djl",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 4.530297395833333,
+    "phases": [
+      {
+        "trial": "order_six_djl__t4ySqXW",
+        "start": "2026-09-19T10:31:08.403375Z",
+        "end": "2026-09-19T15:02:58.516820Z",
+        "observed_end": "2026-09-19T15:02:57.474000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 436,
+      "Lean": 1408,
+      "Code": 1256
+    }
+  },
+  {
+    "trial": "petty_projection__WTJjbVR",
+    "problem": "petty_projection",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.5755532305555557,
+    "phases": [
+      {
+        "trial": "petty_projection__WTJjbVR",
+        "start": "2026-09-19T10:44:20.793370Z",
+        "end": "2026-09-19T14:18:53.926107Z",
+        "observed_end": "2026-09-19T14:18:52.785000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 652,
+      "Lean": 754,
+      "Code": 1618
+    }
+  },
+  {
+    "trial": "polynomial_hirsch__jY88pxy",
+    "problem": "polynomial_hirsch",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.2296667719444443,
+    "phases": [
+      {
+        "trial": "polynomial_hirsch__jY88pxy",
+        "start": "2026-09-19T12:05:48.331621Z",
+        "end": "2026-09-19T15:19:36.772469Z",
+        "observed_end": "2026-09-19T15:19:35.132000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 1535,
+      "Lean": 14,
+      "Code": 1379
+    }
+  },
+  {
+    "trial": "reflexive_fixed_point__vFRYsub",
+    "problem": "reflexive_fixed_point",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.028659799166667,
+    "phases": [
+      {
+        "trial": "reflexive_fixed_point__vFRYsub",
+        "start": "2026-09-19T13:36:32.805723Z",
+        "end": "2026-09-19T16:38:17.968291Z",
+        "observed_end": "2026-09-19T16:38:15.981000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 1719,
+      "Lean": 77,
+      "Code": 866
+    }
+  },
+  {
+    "trial": "reinhardt__nCLJ5NK",
+    "problem": "reinhardt",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.416942823888889,
+    "phases": [
+      {
+        "trial": "reinhardt__nCLJ5NK",
+        "start": "2026-09-24T04:11:25.155834Z",
+        "end": "2026-09-24T07:36:27.750342Z",
+        "observed_end": "2026-09-24T07:36:26.150000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 428,
+      "Lean": 2920,
+      "Code": 2218
+    }
+  },
+  {
+    "trial": "shannon_capacity_c7__AwbJB9a",
+    "problem": "shannon_capacity_c7",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 2.463565955,
+    "phases": [
+      {
+        "trial": "shannon_capacity_c7__AwbJB9a",
+        "start": "2026-09-19T14:23:50.457562Z",
+        "end": "2026-09-19T16:51:44.034507Z",
+        "observed_end": "2026-09-19T16:51:39.295000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 336,
+      "Lean": 770,
+      "Code": 541
+    }
+  },
+  {
+    "trial": "sharp_slicing_isotropic_constant__4TgQnBP",
+    "problem": "sharp_slicing_isotropic_constant",
+    "budget": 100,
+    "is_resume": false,
+    "observed_hours": 3.1631465566666668,
+    "phases": [
+      {
+        "trial": "sharp_slicing_isotropic_constant__4TgQnBP",
+        "start": "2026-09-19T15:05:38.476396Z",
+        "end": "2026-09-19T18:15:27.421277Z",
+        "observed_end": "2026-09-19T18:15:25.804000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 452,
+      "Lean": 14,
+      "Code": 1603
+    }
+  },
+  {
+    "trial": "bang_plank__o8iyaEN",
+    "problem": "bang_plank",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 12.102986344166666,
+    "phases": [
+      {
+        "trial": "bang_plank__o8iyaEN",
+        "start": "2026-09-24T15:09:47.934161Z",
+        "end": "2026-09-25T03:16:00.456962Z",
+        "observed_end": "2026-09-25T03:15:58.685000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 8754,
+      "Lean": 0,
+      "Code": 18583
+    }
+  },
+  {
+    "trial": "borsuk__XSDUzG9",
+    "problem": "borsuk",
+    "budget": 1000,
+    "is_resume": true,
+    "observed_hours": 15.693444077222221,
+    "phases": [
+      {
+        "trial": "borsuk__kGL3dqw",
+        "start": "2026-09-19T21:21:58.980487Z",
+        "end": "2026-09-20T02:30:58.133896Z",
+        "observed_end": "2026-09-20T02:30:38.521000+00:00"
+      },
+      {
+        "trial": "borsuk__XSDUzG9",
+        "start": "2026-09-22T20:27:46.443835Z",
+        "end": "2026-09-23T07:00:46.922221Z",
+        "observed_end": "2026-09-23T07:00:43.302000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 2101,
+      "Lean": 5,
+      "Code": 16097
+    }
+  },
+  {
+    "trial": "chebyshev_set__XRdDrb5",
+    "problem": "chebyshev_set",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 13.354897806111111,
+    "phases": [
+      {
+        "trial": "chebyshev_set__XRdDrb5",
+        "start": "2026-09-19T21:20:46.984898Z",
+        "end": "2026-09-20T10:42:05.686493Z",
+        "observed_end": "2026-09-20T10:42:04.617000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 5064,
+      "Lean": 0,
+      "Code": 1668
+    }
+  },
+  {
+    "trial": "danzer__HCovFrt",
+    "problem": "danzer",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 16.4420173775,
+    "phases": [
+      {
+        "trial": "danzer__HCovFrt",
+        "start": "2026-09-19T21:18:53.791441Z",
+        "end": "2026-09-20T13:45:26.759813Z",
+        "observed_end": "2026-09-20T13:45:25.054000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 4373,
+      "Lean": 10,
+      "Code": 8172
+    }
+  },
+  {
+    "trial": "dimensional_brunn_minkowski__GSijkYw",
+    "problem": "dimensional_brunn_minkowski",
+    "budget": 1000,
+    "is_resume": true,
+    "observed_hours": 25.051646794444444,
+    "phases": [
+      {
+        "trial": "dimensional_brunn_minkowski__4YAYDPE",
+        "start": "2026-09-19T21:21:42.643342Z",
+        "end": "2026-09-20T20:34:00.963201Z",
+        "observed_end": "2026-09-20T20:33:58.367000+00:00"
+      },
+      {
+        "trial": "dimensional_brunn_minkowski__GSijkYw",
+        "start": "2026-09-22T22:18:52.184198Z",
+        "end": "2026-09-23T00:09:43.898610Z",
+        "observed_end": "2026-09-23T00:09:42.389000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 2287,
+      "Lean": 18,
+      "Code": 8175
+    }
+  },
+  {
+    "trial": "generalized_lax__mfyuSG9",
+    "problem": "generalized_lax",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 11.901240386666666,
+    "phases": [
+      {
+        "trial": "generalized_lax__mfyuSG9",
+        "start": "2026-09-22T14:58:29.464608Z",
+        "end": "2026-09-23T02:52:36.594094Z",
+        "observed_end": "2026-09-23T02:52:33.930000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 6537,
+      "Lean": 10,
+      "Code": 14202
+    }
+  },
+  {
+    "trial": "hadwiger_covering__V7GUzte",
+    "problem": "hadwiger_covering",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 12.85579760611111,
+    "phases": [
+      {
+        "trial": "hadwiger_covering__V7GUzte",
+        "start": "2026-09-19T21:21:23.660618Z",
+        "end": "2026-09-20T10:12:46.310144Z",
+        "observed_end": "2026-09-20T10:12:44.532000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 3299,
+      "Lean": 18,
+      "Code": 20295
+    }
+  },
+  {
+    "trial": "kalai_3d__8DFeKAS",
+    "problem": "kalai_3d",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 13.054281904722224,
+    "phases": [
+      {
+        "trial": "kalai_3d__8DFeKAS",
+        "start": "2026-09-19T22:49:37.981143Z",
+        "end": "2026-09-20T11:52:54.766305Z",
+        "observed_end": "2026-09-20T11:52:53.396000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 2616,
+      "Lean": 0,
+      "Code": 13206
+    }
+  },
+  {
+    "trial": "kls_conjecture__oPDxJ8U",
+    "problem": "kls_conjecture",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 16.788908370833333,
+    "phases": [
+      {
+        "trial": "kls_conjecture__oPDxJ8U",
+        "start": "2026-09-20T02:36:12.905865Z",
+        "end": "2026-09-20T19:23:34.142398Z",
+        "observed_end": "2026-09-20T19:23:32.976000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 10055,
+      "Lean": 995,
+      "Code": 5751
+    }
+  },
+  {
+    "trial": "kneser_poulsen__ro2x9xi",
+    "problem": "kneser_poulsen",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 17.114747347222224,
+    "phases": [
+      {
+        "trial": "kneser_poulsen__ro2x9xi",
+        "start": "2026-09-24T15:09:44.089550Z",
+        "end": "2026-09-25T08:16:40.114713Z",
+        "observed_end": "2026-09-25T08:16:37.180000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 5739,
+      "Lean": 10,
+      "Code": 16559
+    }
+  },
+  {
+    "trial": "log_brunn_minkowski__VsrG4eb",
+    "problem": "log_brunn_minkowski",
+    "budget": 1000,
+    "is_resume": true,
+    "observed_hours": 15.675313868888889,
+    "phases": [
+      {
+        "trial": "log_brunn_minkowski__YpYJbR4",
+        "start": "2026-09-22T14:57:20.214374Z",
+        "end": "2026-09-23T15:28:03.456810Z",
+        "observed_end": "2026-09-22T22:46:19.033000+00:00"
+      },
+      {
+        "trial": "log_brunn_minkowski__VsrG4eb",
+        "start": "2026-09-23T15:42:23.929698Z",
+        "end": "2026-09-23T23:33:57.364463Z",
+        "observed_end": "2026-09-23T23:33:56.241000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 7388,
+      "Lean": 15,
+      "Code": 20581
+    }
+  },
+  {
+    "trial": "mahler_general__ejRxjRD",
+    "problem": "mahler_general",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 21.61871500638889,
+    "phases": [
+      {
+        "trial": "mahler_general__ejRxjRD",
+        "start": "2026-09-20T10:47:41.352977Z",
+        "end": "2026-09-21T08:24:51.636684Z",
+        "observed_end": "2026-09-21T08:24:48.727000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 2573,
+      "Lean": 66,
+      "Code": 9377
+    }
+  },
+  {
+    "trial": "mahler_symmetric__mmAHie6",
+    "problem": "mahler_symmetric",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 11.419962318611113,
+    "phases": [
+      {
+        "trial": "mahler_symmetric__mmAHie6",
+        "start": "2026-09-24T15:08:46.738653Z",
+        "end": "2026-09-25T02:34:00.848552Z",
+        "observed_end": "2026-09-25T02:33:58.603000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 3951,
+      "Lean": 11,
+      "Code": 15287
+    }
+  },
+  {
+    "trial": "order_six_djl__n32XVj9",
+    "problem": "order_six_djl",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 20.87242849361111,
+    "phases": [
+      {
+        "trial": "order_six_djl__n32XVj9",
+        "start": "2026-09-20T12:22:15.809423Z",
+        "end": "2026-09-21T09:14:38.015228Z",
+        "observed_end": "2026-09-21T09:14:36.552000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 1668,
+      "Lean": 0,
+      "Code": 6815
+    }
+  },
+  {
+    "trial": "petty_projection__D7J9zYA",
+    "problem": "petty_projection",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 14.016513805555554,
+    "phases": [
+      {
+        "trial": "petty_projection__D7J9zYA",
+        "start": "2026-09-20T13:48:56.725300Z",
+        "end": "2026-09-21T03:49:58.610295Z",
+        "observed_end": "2026-09-21T03:49:56.175000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 2462,
+      "Lean": 0,
+      "Code": 16644
+    }
+  },
+  {
+    "trial": "polynomial_hirsch__Cgory3j",
+    "problem": "polynomial_hirsch",
+    "budget": 1000,
+    "is_resume": true,
+    "observed_hours": 18.18287103138889,
+    "phases": [
+      {
+        "trial": "polynomial_hirsch__GYJY3ot",
+        "start": "2026-09-20T19:30:18.326661Z",
+        "end": "2026-09-21T11:23:30.065774Z",
+        "observed_end": "2026-09-21T11:21:24.857000+00:00"
+      },
+      {
+        "trial": "polynomial_hirsch__Cgory3j",
+        "start": "2026-09-22T22:10:38.407626Z",
+        "end": "2026-09-23T00:30:31.886526Z",
+        "observed_end": "2026-09-23T00:30:30.213000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 14583,
+      "Lean": 688,
+      "Code": 29217
+    }
+  },
+  {
+    "trial": "reflexive_fixed_point__aV6gW7N",
+    "problem": "reflexive_fixed_point",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 17.349756308333333,
+    "phases": [
+      {
+        "trial": "reflexive_fixed_point__aV6gW7N",
+        "start": "2026-09-20T20:38:16.615290Z",
+        "end": "2026-09-21T13:59:18.449747Z",
+        "observed_end": "2026-09-21T13:59:15.738000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 10624,
+      "Lean": 15,
+      "Code": 4623
+    }
+  },
+  {
+    "trial": "reinhardt__WkXjzt8",
+    "problem": "reinhardt",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 15.474155608611111,
+    "phases": [
+      {
+        "trial": "reinhardt__WkXjzt8",
+        "start": "2026-09-24T15:08:46.568809Z",
+        "end": "2026-09-25T06:37:15.432995Z",
+        "observed_end": "2026-09-25T06:37:13.529000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 3268,
+      "Lean": 296,
+      "Code": 12508
+    }
+  },
+  {
+    "trial": "shannon_capacity_c7__te7t9o6",
+    "problem": "shannon_capacity_c7",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 16.52345153527778,
+    "phases": [
+      {
+        "trial": "shannon_capacity_c7__te7t9o6",
+        "start": "2026-09-21T04:04:38.134473Z",
+        "end": "2026-09-21T20:36:04.746995Z",
+        "observed_end": "2026-09-21T20:36:02.560000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 3345,
+      "Lean": 133,
+      "Code": 8060
+    }
+  },
+  {
+    "trial": "sharp_slicing_isotropic_constant__3U9c3uC",
+    "problem": "sharp_slicing_isotropic_constant",
+    "budget": 1000,
+    "is_resume": false,
+    "observed_hours": 24.30722178388889,
+    "phases": [
+      {
+        "trial": "sharp_slicing_isotropic_constant__3U9c3uC",
+        "start": "2026-09-21T08:28:23.372578Z",
+        "end": "2026-09-22T08:46:51.212724Z",
+        "observed_end": "2026-09-22T08:46:49.371000+00:00"
+      }
+    ],
+    "first_seen_lines": {
+      "Writeups": 4890,
+      "Lean": 0,
+      "Code": 24594
+    }
+  }
+]

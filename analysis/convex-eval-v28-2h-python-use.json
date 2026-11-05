@@ -1,0 +1,56 @@
+[
+ {
+  "task": "newton_decrement_bound",
+  "trial": "newton_decrement_bound__V8hitGh",
+  "libraries": [
+   "sympy",
+   "math",
+   "random"
+  ],
+  "scripts": [
+   "/app/scratch/a1work/check.py",
+   "/app/scratch/a1work/gen.py",
+   "/app/scratch/a1work/mklean.py"
+  ],
+  "computation": "Random numerical checks, then SymPy manipulation of the cubic form D^3 f[a,u,u] over a rotated triple of unit vectors to derive and verify the self-concordance bound |D^3 f[a,u,u]| <= 2 ||a||_x ||u||_x^2; mklean.py emits the resulting identities as Lean.",
+  "used_in_final_proof": true
+ },
+ {
+  "task": "sag_strongly_convex_linear_bound",
+  "trial": "sag_strongly_convex_linear_bound__c7htPbh",
+  "libraries": [
+   "sympy",
+   "numpy",
+   "scipy",
+   "cvxopt"
+  ],
+  "scripts": [
+   "/app/scratch/py/sdp.py",
+   "/app/scratch/py/paper.py",
+   "/app/scratch/py/check.py",
+   "/app/scratch/py/sym.py",
+   "/app/scratch/py/cert.py",
+   "/app/scratch/py/cert2.py",
+   "/app/scratch/py/bern.py",
+   "/app/scratch/py/gen_bern.py",
+   "/app/scratch/py/dom.py"
+  ],
+  "computation": "An SDP search (cvxopt) and SymPy algebra for an explicit polynomial certificate of the one-step decrease in the strongly convex SAG rate, with numerical worst-case checks (scipy) and Bernstein-form positivity certificates; gen_bern.py emits them as Lean.",
+  "used_in_final_proof": true
+ },
+ {
+  "task": "sag_bound_centered",
+  "trial": "sag_bound_centered__kzS6Da7",
+  "libraries": [
+   "numpy",
+   "math",
+   "random"
+  ],
+  "scripts": [
+   "/app/scratch/check.py",
+   "/app/scratch/check2.py"
+  ],
+  "computation": "Random numerical testing (20,000 random quadratic instances) of the inequality the proof needs, to confirm it before proving it in Lean.",
+  "used_in_final_proof": false
+ }
+]

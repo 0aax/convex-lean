@@ -1,0 +1,47 @@
+{
+    "job_name": "autoformalize-chain-specific-first-opus",
+    "n_concurrent_trials": 15,
+    "environment_build_timeout_multiplier": 4.0,
+    "n_attempts": 1,
+    "environment": {
+        "type": "daytona",
+        "delete": true,
+        "kwargs": {
+            "auto_delete_interval_mins": 60
+        }
+    },
+    "agents": [
+        {
+            "import_path": "claude_code_thinking:ClaudeCodeThinking",
+            "model_name": "anthropic/claude-opus-5-5",
+            "env": {
+                "CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS": "0"
+            },
+            "kwargs": {
+                "thinking_display": "summarized",
+                "reasoning_effort": "max",
+                "version": "2.1.285"
+            }
+        }
+    ],
+    "tasks": [
+        {
+            "path": "tasks/autoformalize-chain-specific-first/BC_chap_20_25__opus__1"
+        },
+        {
+            "path": "tasks/autoformalize-chain-specific-first/BC_chap_20_25__opus__2"
+        },
+        {
+            "path": "tasks/autoformalize-chain-specific-first/BC_chap_9_20__opus__1"
+        },
+        {
+            "path": "tasks/autoformalize-chain-specific-first/BC_chap_9_20__opus__2"
+        },
+        {
+            "path": "tasks/autoformalize-chain-specific-first/RW_chap_3_26__opus__1"
+        },
+        {
+            "path": "tasks/autoformalize-chain-specific-first/RW_chap_3_26__opus__2"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\newtheorem*{conjecture}{Conjecture}
+
+\title{Problem statement}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{conjecture}[Kalai's $3^d$ conjecture]
+Every centrally symmetric $d$-polytope $P \subset \mathbb{R}^d$ has at least $3^d$ nonempty faces:
+\begin{align*}
+  \sum_{k = 0}^d f_k (P) \ \ge \ 3^d.
+\end{align*}
+\end{conjecture}
+
+\end{document}

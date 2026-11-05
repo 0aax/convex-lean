@@ -1,0 +1,151 @@
+{
+  "order": "specific-first",
+  "prompt": "detailed",
+  "time_budget_minutes": 30.0,
+  "tasks": [
+    {
+      "task": "BC_chap_20_25__astra__1",
+      "target": "BC_chap_20_25",
+      "prior": "FCA_chap_B_4_1_4",
+      "model": "astra",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_4_1_4__FNV6gCT"
+    },
+    {
+      "task": "BC_chap_20_25__opus__1",
+      "target": "BC_chap_20_25",
+      "prior": "FCA_chap_B_4_1_4",
+      "model": "opus",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_4_1_4__k4ASJS6"
+    },
+    {
+      "task": "BC_chap_20_25__fable__1",
+      "target": "BC_chap_20_25",
+      "prior": "FCA_chap_B_4_1_4",
+      "model": "fable",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_4_1_4__vzm2DvD"
+    },
+    {
+      "task": "BC_chap_20_25__opus__2",
+      "target": "BC_chap_20_25",
+      "prior": "FCA_chap_B_4_1_4",
+      "model": "opus",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_4_1_4__FhzNcgv"
+    },
+    {
+      "task": "BC_chap_20_25__astra__2",
+      "target": "BC_chap_20_25",
+      "prior": "FCA_chap_B_4_1_4",
+      "model": "astra",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_4_1_4__FziKH2q"
+    },
+    {
+      "task": "BC_chap_20_25__fable__2",
+      "target": "BC_chap_20_25",
+      "prior": "FCA_chap_B_4_1_4",
+      "model": "fable",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_4_1_4__zwoz4HG"
+    },
+    {
+      "task": "BC_chap_9_20__opus__1",
+      "target": "BC_chap_9_20",
+      "prior": "FCA_chap_B_1_2_1",
+      "model": "opus",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_1_2_1__46RV4FY"
+    },
+    {
+      "task": "BC_chap_9_20__fable__1",
+      "target": "BC_chap_9_20",
+      "prior": "FCA_chap_B_1_2_1",
+      "model": "fable",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_1_2_1__FWXxsh8"
+    },
+    {
+      "task": "BC_chap_9_20__astra__1",
+      "target": "BC_chap_9_20",
+      "prior": "FCA_chap_B_1_2_1",
+      "model": "astra",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_1_2_1__vwbnL5r"
+    },
+    {
+      "task": "BC_chap_9_20__opus__2",
+      "target": "BC_chap_9_20",
+      "prior": "FCA_chap_B_1_2_1",
+      "model": "opus",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_1_2_1__J9VtCM6"
+    },
+    {
+      "task": "BC_chap_9_20__astra__2",
+      "target": "BC_chap_9_20",
+      "prior": "FCA_chap_B_1_2_1",
+      "model": "astra",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_1_2_1__fcBBRJA"
+    },
+    {
+      "task": "BC_chap_9_20__fable__2",
+      "target": "BC_chap_9_20",
+      "prior": "FCA_chap_B_1_2_1",
+      "model": "fable",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_1_2_1__qZaLB6k"
+    },
+    {
+      "task": "RW_chap_3_26__opus__1",
+      "target": "RW_chap_3_26",
+      "prior": "FCA_chap_B_3_2_4_ii",
+      "model": "opus",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_3_2_4_ii__7MJkCks"
+    },
+    {
+      "task": "RW_chap_3_26__fable__1",
+      "target": "RW_chap_3_26",
+      "prior": "FCA_chap_B_3_2_4_ii",
+      "model": "fable",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_3_2_4_ii__AeUs954"
+    },
+    {
+      "task": "RW_chap_3_26__astra__1",
+      "target": "RW_chap_3_26",
+      "prior": "FCA_chap_B_3_2_4_ii",
+      "model": "astra",
+      "k": 1,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-1/FCA_chap_B_3_2_4_ii__EeCjV3J"
+    },
+    {
+      "task": "RW_chap_3_26__opus__2",
+      "target": "RW_chap_3_26",
+      "prior": "FCA_chap_B_3_2_4_ii",
+      "model": "opus",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_3_2_4_ii__6Yfj64v"
+    },
+    {
+      "task": "RW_chap_3_26__fable__2",
+      "target": "RW_chap_3_26",
+      "prior": "FCA_chap_B_3_2_4_ii",
+      "model": "fable",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_3_2_4_ii__CLHnP3N"
+    },
+    {
+      "task": "RW_chap_3_26__astra__2",
+      "target": "RW_chap_3_26",
+      "prior": "FCA_chap_B_3_2_4_ii",
+      "model": "astra",
+      "k": 2,
+      "prior_trial": "jobs/autoformalization/chain-detailed/stage1/attempt-2/FCA_chap_B_3_2_4_ii__vdx686p"
+    }
+  ]
+}
