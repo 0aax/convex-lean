@@ -1,0 +1,20 @@
+# Documentation build, kept separate so that `lake build` of the library itself
+# does not pull in doc-gen4. From this directory:
+#
+#   MATHLIB_NO_CACHE_ON_UPDATE=1 lake update doc-gen4   # once, or after a toolchain bump
+#   lake build ConvexStarLib:docs
+#
+# The site is written to docbuild/.lake/build/doc/.
+name = "docbuild"
+reservoir = false
+version = "0.1.0"
+packagesDir = "../.lake/packages"
+
+[[require]]
+scope = "leanprover"
+name = "doc-gen4"
+rev = "v4.28.0"
+
+[[require]]
+name = "convex-star-lib"
+path = "../"

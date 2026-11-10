@@ -1,0 +1,21 @@
+name = "convex-star-lib"
+version = "0.1.0"
+keywords = ["math", "convex-analysis", "convex-optimization"]
+defaultTargets = ["ConvexStarLib"]
+
+[leanOptions]
+pp.unicode.fun = true
+pp.proofs.withType = false
+# Every file wraps one task in `namespace <task>` with a main theorem of the same name,
+# and keeps the `variable` lines of its statement verbatim; silence the linters that
+# object to exactly that.
+weak.linter.dupNamespace = false
+linter.unusedSectionVars = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.28.0"
+
+[[lean_lib]]
+name = "ConvexStarLib"

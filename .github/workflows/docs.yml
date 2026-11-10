@@ -1,0 +1,64 @@
+name: docs
+
+# Builds the ConvexStarLib documentation (convex-star-lib/) and deploys it to GitHub Pages.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "convex-star-lib/**"
+      - ".github/workflows/docs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: convex-star-lib
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Installs elan, fetches the Mathlib cache and runs `lake build`.
+      - uses: leanprover/lean-action@v1
+        with:
+          lake-package-directory: convex-star-lib
+          use-mathlib-cache: true
+
+      # doc-gen4 also renders the documentation of every dependency (Mathlib
+      # included), which dominates the run time. Reuse it between runs as long
+      # as the dependency versions are unchanged.
+      - name: Restore dependency documentation
+        uses: actions/cache@v4
+        with:
+          path: convex-star-lib/docbuild/.lake/build
+          key: docbuild-${{ hashFiles('convex-star-lib/docbuild/lake-manifest.json', 'convex-star-lib/lake-manifest.json') }}
+          restore-keys: docbuild-
+
+      - name: Build documentation
+        working-directory: convex-star-lib/docbuild
+        run: lake build ConvexStarLib:docs
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: convex-star-lib/docbuild/.lake/build/doc
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

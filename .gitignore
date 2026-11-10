@@ -11,5 +11,5 @@ __pycache__/
 textbooks/
 tasks/autoformalize*/*/environment/corpus/
 
-# Lake build output if an Aristotle project under aristotle/projects/ is built locally
+# Lake build output of convex-star-lib/ (and docbuild/), or of an Aristotle project under aristotle/projects/
 .lake/

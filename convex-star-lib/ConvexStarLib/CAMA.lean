@@ -1,0 +1,42 @@
+import ConvexStarLib.CAMA.CAMA_chap_3_1_2_1
+import ConvexStarLib.CAMA.CAMA_chap_3_1_2_4
+import ConvexStarLib.CAMA.CAMA_chap_3_1_2_7
+import ConvexStarLib.CAMA.CAMA_chap_3_1_3_3
+import ConvexStarLib.CAMA.CAMA_chap_3_1_3_4
+import ConvexStarLib.CAMA.CAMA_chap_3_1_3_6
+import ConvexStarLib.CAMA.CAMA_chap_3_1_4_3
+import ConvexStarLib.CAMA.CAMA_chap_3_2_1_10
+import ConvexStarLib.CAMA.CAMA_chap_3_2_1_12
+import ConvexStarLib.CAMA.CAMA_chap_3_2_1_3
+import ConvexStarLib.CAMA.CAMA_chap_3_2_1_6
+import ConvexStarLib.CAMA.CAMA_chap_3_2_1_8
+import ConvexStarLib.CAMA.CAMA_chap_3_2_2_1
+import ConvexStarLib.CAMA.CAMA_chap_3_2_2_3
+import ConvexStarLib.CAMA.CAMA_chap_3_2_3_3
+import ConvexStarLib.CAMA.CAMA_chap_3_2_3_4
+import ConvexStarLib.CAMA.CAMA_chap_3_2_3_7
+import ConvexStarLib.CAMA.CAMA_chap_3_2_4_6
+import ConvexStarLib.CAMA.CAMA_chap_3_3_1_1
+import ConvexStarLib.CAMA.CAMA_chap_3_3_1_3
+import ConvexStarLib.CAMA.CAMA_chap_3_3_2_3
+import ConvexStarLib.CAMA.CAMA_chap_3_3_2_5
+import ConvexStarLib.CAMA.CAMA_chap_3_4_1_1
+import ConvexStarLib.CAMA.CAMA_chap_3_4_1_3
+import ConvexStarLib.CAMA.CAMA_chap_3_4_2_1
+import ConvexStarLib.CAMA.CAMA_chap_3_4_2_3
+import ConvexStarLib.CAMA.CAMA_chap_3_4_2_4
+import ConvexStarLib.CAMA.CAMA_chap_3_4_2_7
+import ConvexStarLib.CAMA.CAMA_chap_3_4_3_1
+import ConvexStarLib.CAMA.CAMA_chap_3_4_3_2
+import ConvexStarLib.CAMA.CAMA_chap_3_4_3_3
+import ConvexStarLib.CAMA.CAMA_chap_3_5_1_2
+import ConvexStarLib.CAMA.CAMA_chap_3_5_1_3
+import ConvexStarLib.CAMA.CAMA_chap_3_5_2_1
+import ConvexStarLib.CAMA.CAMA_chap_3_5_2_4
+import ConvexStarLib.CAMA.CAMA_chap_3_5_2_5
+import ConvexStarLib.CAMA.CAMA_chap_3_5_3_1
+import ConvexStarLib.CAMA.CAMA_chap_3_5_3_3
+
+/-! # CAMA
+
+Hiriart-Urruty & Lemarechal, Convex Analysis and Minimization Algorithms. -/

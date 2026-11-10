@@ -1,0 +1,36 @@
+import ConvexStarLib.Bubeck.FISTA_bound
+import ConvexStarLib.Bubeck.ISTA_bound
+import ConvexStarLib.Bubeck.bubeck_3_13
+import ConvexStarLib.Bubeck.bubeck_3_14
+import ConvexStarLib.Bubeck.center_of_gravity_bound
+import ConvexStarLib.Bubeck.dual_averaging_bound
+import ConvexStarLib.Bubeck.ellipsoid_method_bound
+import ConvexStarLib.Bubeck.frank_wolfe_smooth_bound
+import ConvexStarLib.Bubeck.gradient_descent_smooth_bound
+import ConvexStarLib.Bubeck.gradient_descent_smooth_strongly_convex_bound
+import ConvexStarLib.Bubeck.grunbaum
+import ConvexStarLib.Bubeck.ipm_path_following_bound_centered
+import ConvexStarLib.Bubeck.minibatch_stochastic_gradient_descent_bound
+import ConvexStarLib.Bubeck.mirror_descent_bound
+import ConvexStarLib.Bubeck.mirror_prox_bound
+import ConvexStarLib.Bubeck.nesterov_smooth_convex_bound
+import ConvexStarLib.Bubeck.nesterov_smooth_strongly_convex_bound
+import ConvexStarLib.Bubeck.newton_decrement_bound
+import ConvexStarLib.Bubeck.newtons_method_bound
+import ConvexStarLib.Bubeck.projected_gradient_descent_smooth_bound
+import ConvexStarLib.Bubeck.projected_gradient_descent_smooth_strongly_convex_bound
+import ConvexStarLib.Bubeck.randomized_coordinate_descent_bound
+import ConvexStarLib.Bubeck.randomized_coordinate_descent_gamma_bound
+import ConvexStarLib.Bubeck.randomized_coordinate_descent_gamma_stronglyconvex_bound
+import ConvexStarLib.Bubeck.saddle_point_mirror_descent_bound
+import ConvexStarLib.Bubeck.saddle_point_mirror_prox_bound
+import ConvexStarLib.Bubeck.stochastic_gradient_descent_bound
+import ConvexStarLib.Bubeck.stochastic_mirror_descent_bound
+import ConvexStarLib.Bubeck.stochastic_mirror_descent_bound_smooth
+import ConvexStarLib.Bubeck.subgradient_bound
+import ConvexStarLib.Bubeck.subgradient_strongly_convex_bound
+import ConvexStarLib.Bubeck.svrg_bound
+
+/-! # Bubeck
+
+Bubeck, Convex Optimization: Algorithms and Complexity. -/

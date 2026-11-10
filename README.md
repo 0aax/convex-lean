@@ -50,6 +50,13 @@ Extract the runs into the `jobs` directory. Each trial directory contains the in
 | `jobs/open-problems-final/<budget>/` | open problems, a problem with two trials under a budget is one that stopped early and was resumed. |
 | `jobs/autoformalization/<prompt>/` | autoformalization examples under the basic and detailed prompts: `stage1/attempt-<k>/` holds the first formalizations and `stage2/` the second ones. |
 
+## ConvexStarLib
+
+`convex-star-lib/` is a standalone Lake project, `ConvexStarLib`, collecting the 315 textbook statements
+with the proofs accepted from the 2-hour runs, one file per theorem organized by source book. See its
+[README](convex-star-lib/README.md) for the layout and build instructions. The `docs` workflow renders
+its documentation with doc-gen4 and deploys it to GitHub Pages.
+
 ## Analysis
 
 `analysis/` holds the paper's manual analyses of the run outputs.
