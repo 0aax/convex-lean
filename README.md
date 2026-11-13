@@ -2,6 +2,8 @@
 
 Evaluating agents on proving the mathematics of convexity in Lean 4.
 
+[Paper](https://github.com/0aax/convex-lean/blob/main/paper.pdf)
+
 ## Setup
 
 Install the pinned environment:
