@@ -1,6 +1,13 @@
 # convex-lean
 
-This repository is associated with the paper [Formalizing the mathematics of convexity in Lean](https://github.com/0aax/convex-lean/blob/main/paper.pdf). This project explores what a path for Lean mathematics formalization involving human-written definitions and theorem statements and AI-generated proofs would look like. We formalize mathematics relating to convexity from textbooks to the research frontier; in this GitHub repository, we include our textbook formalizations in [ConvexStarLib](#convexstarlib) as well as our open problem [definitions and conjecture formalizations](tasks/open-problems-100/), [experiments](configs/open-problems/), and [transcripts and run outputs](#run-outputs).
+This repository is associated with the paper [Formalizing the mathematics of convexity in Lean](https://github.com/0aax/convex-lean/blob/main/paper.pdf). This project explores what a path for Lean mathematics formalization involving human-written definitions and theorem statements and AI-generated proofs would look like. We formalize mathematics relating to convexity from textbooks to the research frontier.
+
+In this GitHub repository, we include:
+
+- Textbook formalizations in [ConvexStarLib](#convexstarlib).
+- [Textbook proof-generation evaluations](configs/convex-eval/).
+- Open problem [definitions and conjecture formalizations](tasks/open-problems-100/), [experiments](configs/open-problems/), and [transcripts and run outputs](#run-outputs).
+- [Autoformalization experiments](configs/autoformalize/).
 
 ## Setup
 
