@@ -1,13 +1,8 @@
 # convex-lean
 
-This repository accompanies the paper [Formalizing the mathematics of convexity in Lean](https://github.com/0aax/convex-lean/blob/main/paper.pdf). This project explores what a path for Lean mathematics formalization involving human-written definitions and theorem statements and AI-generated proofs would look like. We formalize mathematics relating to convexity from textbooks to the research frontier.
+This repository accompanies the paper [Formalizing the mathematics of convexity in Lean](https://github.com/0aax/convex-lean/blob/main/paper.pdf).
 
-In this GitHub repository, we include:
-
-- Textbook formalizations in [ConvexStarLib](#convexstarlib).
-- [Textbook proof-generation evaluations](configs/convex-eval/).
-- Open problem [definitions and conjecture formalizations](tasks/open-problems-100/), [experiments](configs/open-problems/), and [transcripts and run outputs](#run-outputs).
-- [Autoformalization experiments](configs/autoformalize/).
+We explore a middle ground between fully human-written and fully AI-generated formalizations by hand-authoring definitions and theorem statements while delegating formal proof generation to AI agents. To demonstrate, we formalize the mathematics of convexity from textbooks to the research frontier.
 
 ## Setup
 
@@ -59,10 +54,7 @@ Extract the runs into the `jobs` directory. Each trial directory contains the in
 
 ## ConvexStarLib
 
-`convex-star-lib/` is a standalone Lake project, `ConvexStarLib`, collecting the 315 textbook statements
-with the proofs accepted from the 2-hour runs, one file per theorem organized by source book. See its
-[README](convex-star-lib/README.md) for the layout and build instructions. The `docs` workflow renders
-its documentation with doc-gen4 and deploys it to [GitHub Pages](https://0aax.github.io/convex-lean/ConvexStarLib.html).
+`convex-star-lib/` organizes all 315 textbook and paper statements and their formal proofs by their source. See the [documentation page](https://0aax.github.io/convex-lean/ConvexStarLib.html).
 
 ## Analysis
 
