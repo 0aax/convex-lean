@@ -1,6 +1,6 @@
 # convex-lean
 
-This repository is associated with the paper [Formalizing the mathematics of convexity in Lean](https://github.com/0aax/convex-lean/blob/main/paper.pdf). This project explores what a path for Lean mathematics formalization involving human-written definitions and theorem statements and AI-generated proofs would look like. We formalize mathematics relating to convexity from textbooks to the research frontier.
+This repository accompanies the paper [Formalizing the mathematics of convexity in Lean](https://github.com/0aax/convex-lean/blob/main/paper.pdf). This project explores what a path for Lean mathematics formalization involving human-written definitions and theorem statements and AI-generated proofs would look like. We formalize mathematics relating to convexity from textbooks to the research frontier.
 
 In this GitHub repository, we include:
 
